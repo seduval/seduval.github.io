@@ -1,0 +1,87 @@
+
+title: Sébastien Duval
+
+author: Sébastien Duval
+
+collections:
+  authors:
+
+navbar-links:
+  About Me: "aboutme"
+  Research:
+    - Overview: "research/overview"
+    - Publications: "research/publications"
+  Teaching: "teaching"
+
+avatar: "/assets/img/avatar-icon.png"
+
+round-avatar: true
+
+social-network-links:
+  email: "sebastien.duval at uvsq.fr"
+  github: seduval
+  linkedin: sebastien-duval-43110288
+  ORCID: 0000-0003-2558-1756
+  google-scholar: Sébastien Duval
+  
+excerpt_length: 50
+feed_show_excerpt: true
+feed_show_tags: true
+
+keywords: "Sébastien Duval, Doctor, Cryptography, Researcher, S-box, Cipher, MAC, Authentication, Encryption, Spook, Saturnin, MAC611, Authenticated Encryption, Security"
+
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+date_format: "%B %-d, %Y"
+
+timezone: "Europe/Paris"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "default"
+
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
