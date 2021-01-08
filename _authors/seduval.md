@@ -1,0 +1,12 @@
+---
+name: Sébastien Duval
+username: seduval
+bio: "I am Sébastien Duval, cryptographer in the university of Versailles."
+avatar: avatar.png
+email: sebastien.duval at uvsq.fr
+social:
+    - title: "github"
+      url: "https://github.com/seduval"
+    - title: "linkedin"
+      url: "https://www.linkedin.com/in/sebastien-duval-43110288"
+---
