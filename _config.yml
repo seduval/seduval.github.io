@@ -6,17 +6,6 @@ author: Sébastien Duval
 collections:
   authors:
 
-navbar-links:
-  About Me: "aboutme"
-  Research:
-    - Overview: "research/overview"
-    - Publications: "research/publications"
-  Teaching: "teaching"
-
-avatar: "/assets/img/avatar-icon.png"
-
-round-avatar: true
-
 social-network-links:
   email: "sebastien.duval at uvsq.fr"
   github: seduval
