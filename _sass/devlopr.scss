@@ -604,8 +604,10 @@ header {
     text-align: center;
 }
 .project-img{
+    display: block;
     max-width:150px;
     height:100px;
+    width: auto;
 }
 .project_details{
     padding: 10px;
