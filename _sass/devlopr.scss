@@ -679,9 +679,10 @@ header {
     .profile-img {
         width: 150px;
         height: 150px;
-        margin-left: 0px;
         border-radius: 50%;
-	align: center;
+	display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .profile-name {
         margin-top: 20px;
