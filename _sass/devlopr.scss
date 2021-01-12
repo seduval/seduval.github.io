@@ -521,14 +521,14 @@ header {
 }
 
 .jumbotron-heading{
-    color: #111;
+    color: var(--highlight-color);
     font-size: 35px;
 }
 
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
-    color: #111 !important;
+    color: var(--highlight-color) !important;
 }
 
 .fa {
