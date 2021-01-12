@@ -524,12 +524,14 @@ header {
     color: var(--link-color);
     font-size: 35px;
     font-weight: 900;
+    text-shadow: 2px 2px #ff0000;
 }
 
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
     color: var(--link-color) !important;
+    text-shadow: 2px 2px #ff0000;
 }
 
 .fa {
