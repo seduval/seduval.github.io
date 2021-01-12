@@ -12,9 +12,9 @@ urls:
     - text: About
       url: /about
     - text: Research
-      url: /blog
+      url: /research
     - text: Teaching
-      url: /gallery
+      url: /teaching
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
