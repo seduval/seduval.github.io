@@ -26,7 +26,7 @@ author_email: "sebastien.duval at uvsq.fr"
 # Experiences
 author_work_experiences:
             - company_name: Université de Versailles
-              company_logo: logo-lmv-2020.png
+              company_logo: logo-lmv-2020.jpg
               company_url: https://lmv.math.cnrs.fr/
               designation: Post-doctoral researcher
               description: Designing cryptographic solutions for the IoT
