@@ -10,7 +10,7 @@ layout: default
 </head>
  <div class=container-fluid">
  <div class="row" id="blog-posts-container">      
-      <div class="col-lg-6">
+      <div class="col-6">
               <ul>
                   {% for post in paginator.posts %}
                   <div class="card blog-post">
@@ -31,11 +31,9 @@ layout: default
                   </div>
               </ul>
        
-       <div class="col-lg-6">
-                <div class="row">
-                         <h4 class="card-title">Abstract</h4>
-                         <div id="abstract-card"> Test</div>
-                </div>
+       <div class="col-6">
+             <h4 class="card-title">Abstract</h4>
+             <div id="abstract-card"> Test</div>
        </div>
 
         <!--<div class="row center">
@@ -72,6 +70,7 @@ layout: default
 
     </div>
     {%- include blog_sidebar.html -%}-->
-
+</div>
  </div>
+                                                   
 
