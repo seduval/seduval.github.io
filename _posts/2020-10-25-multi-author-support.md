@@ -22,9 +22,10 @@ author: Sébastien Duval
 co-authors: Sébastien Duval, Gaëtan Leurent
 date: '2018-06-07'
 category: Journal articles
-journal: IACR Transactions on Symmetric Cryptology
+venue: IACR Transactions on Symmetric Cryptology
 thumbnail: /assets/img/posts/code.jpg
 keywords: MDS matrix, lightweight cryptography
+doi: https://doi.org/10.13154/tosc.v2018.i2.48-78
 usemathjax: true
 permalink: /research/mds-matrices-with-lightweight-circuits/
 ---
