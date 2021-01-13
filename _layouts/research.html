@@ -12,22 +12,20 @@ layout: default
  <div class="row" id="blog-posts-container">      
       <div class="col-lg-6">
               <ul>
-                  <div class="row">
-                      {% for post in paginator.posts %}
-                      <div class="card blog-post">
-                          <!--<img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}">-->
-                          <div class="card-body center">
-                              <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
-                              <h4 class="card-title">{{ post.title }}</h4>
+                  {% for post in paginator.posts %}
+                  <div class="card blog-post">
+                      <!--<img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}">-->
+                      <div class="card-body center">
+                          <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
+                          <h4 class="card-title">{{ post.title }}</h4>
 
-                              <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
-                              <p class="card-text">{{ post.summary }} </p>
+                          <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
+                          <p class="card-text">{{ post.summary }} </p>
 
-                              <!--<a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
-                              <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>-->
-                              <button class="btn btn-dark btn-lg" onClick="changeAbstract({{post.summary}})">Abstract</button>
+                          <!--<a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
+                          <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>-->
+                          <button class="btn btn-dark btn-lg" onClick="changeAbstract({{post.summary}})">Abstract</button>
 
-                          </div>
                       </div>
                       {% endfor %}
                   </div>
