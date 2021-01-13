@@ -22,7 +22,7 @@ layout: default
 
                           <!--<a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
                           <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>-->
-                          <<button class="btn btn-dark btn-lg" onclick="changeAbstract('{{post.summary}}')">Abstract</button>
+                          <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{post.summary}}')">Abstract</button>
                           <button onclick="myFunction()">Try it</button>
 
                           <div id="myDIV">
@@ -80,10 +80,8 @@ layout: default
 <script>
 function myFunction() {
   var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+  if (x.style.display) {
+    x.textContent = "text";
   }
 }
 </script>
