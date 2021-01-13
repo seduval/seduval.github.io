@@ -2,9 +2,9 @@
 layout: default
 ---
   <script>
-    function changeAbstract(text) {
-      $('abstract-card').update("Truc");
-    }
+    $(document).ready(function changeAbstract(text) {
+      $('#abstractCard').update('This text is different!');
+    });
   </script>
  <div class=container-fluid">
  <div class="row" id="blog-posts-container">      
@@ -33,7 +33,7 @@ layout: default
        <div class="col-6">
               <div class="card">
                  <h4 class="card-title">Abstract</h4>
-                 <div id='abstract-card'> Test</div>
+                 <div id='abstractCard'> Test</div>
               </div>
        </div>
 
