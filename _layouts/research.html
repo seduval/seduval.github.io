@@ -3,6 +3,14 @@ layout: default
 ---
 
  <div class="row" id="blog-posts-container">
+      
+      <head>
+        <script type="text/javascript">
+          function changeAbstract(text) {
+            document.getElementById("abstract-card").innerHTML = text;
+          };
+        </script>
+      </head>
       <div class="col-lg-7">
               <ul>
                   <div class="row-lg-12">
@@ -16,14 +24,19 @@ layout: default
                               <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
                               <p class="card-text">{{ post.summary }} </p>
 
-                              <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
-                              <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
+                              <!--<a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
+                              <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>-->
+                              <button class="btn btn-dark btn-lg" onClick="changeAbstract({{post.summary}})">Abstract</button>
 
                           </div>
                       </div>
                       {% endfor %}
                   </div>
               </ul>
+       
+       <div class="col-lg-7" id="abstract-card">
+         
+       </div>
 
         <div class="row center">
           <!-- Pagination links -->
