@@ -23,11 +23,6 @@ layout: default
                           <!--<a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
                           <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>-->
                           <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{post.summary}}')">Abstract</button>
-                          <button onclick="myFunction()">Try it</button>
-
-                          <div id="myDIV">
-                          This is my DIV element.
-                          </div>
                       </div>
                   </div>
                   {% endfor %}
@@ -77,10 +72,5 @@ layout: default
     {%- include blog_sidebar.html -%}-->
 </div>
  </div>
-<script>
-function myFunction() {
-    document.getElementById("myDIV").textContent = "text";
-  }
-</script>
                                                    
 
