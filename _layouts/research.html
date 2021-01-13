@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-  <script type="text/javascript">
+  <script>
     function changeAbstract(text) {
-      document.getElementById("abstract-card").innerHTML = text;
+      /*document.getElementById("abstract-card").innerHTML = text;*/
+      $("abstract-card").update(text);
     };
   </script>
  <div class=container-fluid">
