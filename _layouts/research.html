@@ -2,7 +2,7 @@
 layout: default
 ---
   <script>
-    $(document).ready(function changeAbstract(text) {
+    $(document).ready(function changeAbstract() {
       $('toup').update('This text is different!');
     });
   </script>
@@ -22,8 +22,9 @@ layout: default
 
                           <!--<a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
                           <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>-->
-                          <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{post.summary}}')">Abstract</button>
-                                                                                                          <div id="toup"></div>
+                          <!--<button class="btn btn-dark btn-lg" onclick="changeAbstract('{{post.summary}}')">Abstract</button>-->
+                          <button onclick="changeAbstract()">Abstract</button>
+                          <div id="toup"></div>
 
                       </div>
                   </div>
