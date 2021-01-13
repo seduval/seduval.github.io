@@ -1,14 +1,32 @@
 ---
 layout: post
-title:  "Added Multi Author Support"
-summary: "Multi Author Support allows to create articles with different Authors"
-author: xplor4r
-date: '2020-10-25 1:35:23 +0530'
-category: jekyll
+title:  "MDS Matrices with Lightweight Circuits"
+summary: "MDS matrices are an important element for the design of block ciphers such
+as the AES. In recent years, there has been a lot of work on the construction of MDS
+matrices with a low implementation cost, in the context of lightweight cryptography.
+Most of the previous efforts focused on local optimization, constructing MDS matrices
+with coefficients that can be efficiently computed. In particular, this led to a matrix
+with a direct xor count of only 106, while a direct implementation of the MixColumn
+matrix of the AES requires 152 bitwise xors.
+More recently, techniques based on global optimization have been introduced, where
+the implementation can reuse some intermediate variables. In particular, Kranz et al.
+used optimization tools to find a good implementation from the description of an
+MDS matrix. They have lowered the cost of implementing the MixColumn matrix to
+97 bitwise xors, and proposed a new matrix with only 72 bitwise xors, the lowest cost
+known so far.
+In this work we propose a different approach to global optimization. Instead of
+looking for an optimized circuit of a given matrix, we run a search through a space of
+circuits, to find optimal circuits yielding MDS matrices. This results in MDS matrices
+with an even lower cost, with only 67 bitwise xors"
+author: Sébastien Duval
+co-authors: Sébastien Duval, Gaëtan Leurent
+date: '2018-06-07'
+category: Journal articles
+journal: IACR Transactions on Symmetric Cryptology
 thumbnail: /assets/img/posts/code.jpg
-keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi author
+keywords: MDS matrix, lightweight cryptography
 usemathjax: true
-permalink: /research/added-multi-author-support/
+permalink: /research/mds-matrices-with-lightweight-circuits/
 ---
 
 ## Now Multiple Authors Can Create Articles:
