@@ -3,12 +3,12 @@ layout: default
 ---
 
  <div class="row" id="blog-posts-container">
-      <div class="col-lg-6 offset-md-1">
+      <div class="col-lg-6">
               <ul>
                   <div class="row-lg-6">
                       {% for post in paginator.posts %}
                       <div class="card blog-post">
-                          <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}">
+                          <!--<img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}">-->
                           <div class="card-body center">
                               <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
                               <h4 class="card-title">{{ post.title }}</h4>
