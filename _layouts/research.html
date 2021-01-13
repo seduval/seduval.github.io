@@ -2,9 +2,9 @@
 layout: default
 ---
   <script>
-    $(document).ready(function changeAbstract() {
-      $('toup').update('This text is different!');
-    });
+    function changeAbstract(text) {
+      $('abstractCard').update('This text is different!');
+    }
   </script>
  <div class=container-fluid">
  <div class="row" id="blog-posts-container">      
@@ -22,10 +22,12 @@ layout: default
 
                           <!--<a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
                           <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>-->
-                          <!--<button class="btn btn-dark btn-lg" onclick="changeAbstract('{{post.summary}}')">Abstract</button>-->
-                          <button onclick="changeAbstract()">Abstract</button>
-                          <div id="toup"></div>
+                          <<button class="btn btn-dark btn-lg" onclick="changeAbstract('{{post.summary}}')">Abstract</button>
+                          <button onclick="myFunction()">Try it</button>
 
+                          <div id="myDIV">
+                          This is my DIV element.
+                          </div>
                       </div>
                   </div>
                   {% endfor %}
@@ -75,5 +77,15 @@ layout: default
     {%- include blog_sidebar.html -%}-->
 </div>
  </div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
                                                    
 
