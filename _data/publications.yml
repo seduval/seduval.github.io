@@ -23,6 +23,8 @@
     venue: IACR Transactions on Symmetric Cryptology
     keywords: MDS matrix, Lightweight cryptography
     doi: https://doi.org/10.13154/tosc.v2018.i2.48-78
+    rg-link: https://www.researchgate.net/publication/346703662_MDS_Matrices_with_Lightweight_Circuits
+    dblp-link: https://dblp.org/rec/journals/tosc/DuvalL18.html
     usemathjax: true
     permalink: /research/mds-matrices-with-lightweight-circuits/
 
@@ -35,6 +37,8 @@
     venue: IEEE Transactions on Information Theory (IEEE-IT)
     keywords: 
     doi: https://doi.org/10.1109/TIT.2017.2676807
+    rg-link: https://www.researchgate.net/publication/314162769_A_generalisation_of_Dillon's_APN_permutation_with_the_best_known_differential_and_nonlinear_properties_for_all_fields_of_size_24k2
+    dblp-link: https://dblp.org/rec/journals/tit/CanteautDP17.html
     usemathjax: true
     permalink: /research/a-generalisation-of-dillons-apn-permutation/
     
@@ -47,6 +51,8 @@
     venue: Annual Cryptology Conference (CRYPTO)
     keywords: Stream cipher, Guess-and-determine attack, FLIP, FHE 
     doi: https://doi.org/10.1007/978-3-662-53018-4_17
+    rg-link: https://www.researchgate.net/publication/305472587_Cryptanalysis_of_the_FLIP_Family_of_Stream_Ciphers
+    dblp-link: https://dblp.org/rec/conf/crypto/DuvalLR16.html
     usemathjax: true
     permalink: /research/cryptanalysis-of-the-flip-family-of-stream-ciphers/
     
@@ -59,6 +65,8 @@
     venue: International Conference on Selected Areas in Cryptography (SAC)
     keywords: S-Box, Feistel network, MISTY network, Lightweight block-cipher 
     doi: https://doi.org/10.1007/978-3-319-31301-6_22
+    rg-link: https://www.researchgate.net/publication/282755840_Construction_of_Lightweight_S-Boxes_using_Feistel_and_MISTY_structures
+    dblp-link: https://dblp.org/rec/conf/sacrypt/CanteautDL15.html
     usemathjax: true
     permalink: /research/construction-of-lightweight-s-boxes-using-feistel-and-misty-structures/
 
