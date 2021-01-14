@@ -5,7 +5,8 @@ menus: header
 usemathjax: true
 permalink: /research/
 ---
- <div class=container-fluid">
+
+ <div class="container-fluid">
  <div class="row" id="blog-posts-container">      
       <div class="col-6">
               <ul>
@@ -71,5 +72,5 @@ permalink: /research/
     {%- include blog_sidebar.html -%}-->
 </div>
  </div>
-                                                   
+
 
