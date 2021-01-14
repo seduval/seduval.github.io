@@ -3,7 +3,8 @@ layout: default
 ---
   <script>
     function changeAbstract(text) {
-      document.getElementById('abstractCard').innerText = text;
+      document.getElementById('abstractCard').setAttribute('style', 'white-space: pre;');
+      document.getElementById('abstractCard').textContent = text;
     }
   </script>
  <div class=container-fluid">
