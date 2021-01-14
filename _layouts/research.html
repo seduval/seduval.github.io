@@ -3,6 +3,9 @@ layout: default
 usemathjax: true
 permalink: /research
 ---
+`$$x^2$$`
+$$x^2$$
+`tt`
  <div class=container-fluid">
  <div class="row" id="blog-posts-container">      
       <div class="col-6">
@@ -19,7 +22,6 @@ permalink: /research
                           <h7> {{publi.keywords}} </h7>
 
                           <p>
-                              `$$x^2$$`<br>
                               <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{publi.summary}}')">Abstract</button>
                  <a href="/research/added-latex-equations-support/" rel="noopener noreferrer" target=_blank class="btn btn-dark btn-lg">Test</a>
                               <a href="{{ publi.doi | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Access</a>
