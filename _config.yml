@@ -13,7 +13,7 @@ urls:
     - text: About
       url: /about
     - text: Research
-      url: /test
+      url: /research
     - text: Teaching
       url: /teaching
 
