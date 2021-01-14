@@ -28,7 +28,7 @@
     usemathjax: true
     permalink: /research/mds-matrices-with-lightweight-circuits/
 
--   title: "A Generalisation of Dillon's APN Permutation With the Best Known Differential and Nonlinear Properties for All Fields of Size \\(2^{4k+2}\\)"
+-   title: "A Generalisation of Dillon's APN Permutation With the Best Known Differential and Nonlinear Properties for All Fields of Size $2^{4k+2}$"
     summary: "The existence of almost perfect nonlinear (APN) permutations operating on an even number of variables was a long-standing open problem, until an example with six variables was exhibited by Dillon et al. in 2009. However it is still unknown whether this example can be generalized to any even number of inputs. In a recent work, Perrin et al. described an infinite family of permutations, named butterflies, operating on (4\\(k\\)+2) variables and with differential uniformity at most 4, which contains the Dillon APN permutation. In this paper, we generalize this family, and we completely solve the two open problems raised by Perrin et al. Indeed we prove that all functions in this larger family have the best known nonlinearity. We also show that this family does not contain any APN permutation besides the Dillon permutation, implying that all other functions have differential uniformity exactly four."
     author: Sébastien Duval
     co-authors: Anne Canteaut, Sébastien Duval, Léo Perrin
