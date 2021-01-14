@@ -24,7 +24,7 @@ layout: default
                           <h7> {{publi.keywords}} </h7>
 
                           <p>
-                              <a href="{{ publi.doi | prepend: site.baseurl }}" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Read</a>
+                              <a href="{{ publi.doi | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Read</a>
                               <span class="disqus-comment-count" data-disqus-identifier="{{ publi.url }}"></span>
                               <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{publi.summary}}')">Abstract</button>
                           </p>
