@@ -29,9 +29,11 @@ permalink: /research/
                         <br>
                         <p class="profile-links">
                             <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{publi.summary}}')">Abstract</button>
-                            <a href="{{ publi.doi | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Access</a>
-                            <a href="{{ publi.rg-link | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">@RG</a>
-                            <a href="{{ publi.dblp-link | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">@dblp</a>
+                            <a href="{{ publi.doi | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank" class="btn btn-dark btn-lg">Access</a>
+                            <a href="{{ publi.rg-link | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank" class="btn btn-dark btn-lg">@RG</a>
+                            {% if publi.dblp-link}}
+                            <a href="{{ publi.dblp-link | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank" class="btn btn-dark btn-lg">@dblp</a>
+                            {% endif %}
                         </p>
                     </div>
                 </div>
