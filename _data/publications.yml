@@ -5,13 +5,13 @@
     Most of the previous efforts focused on local optimization, constructing MDS matrices
     with coefficients that can be efficiently computed. In particular, this led to a matrix
     with a direct xor count of only 106, while a direct implementation of the MixColumn
-    matrix of the AES requires 152 bitwise xors.    
+    matrix of the AES requires 152 bitwise xors. \r\n
     More recently, techniques based on global optimization have been introduced, where
     the implementation can reuse some intermediate variables. In particular, Kranz et al.
     used optimization tools to find a good implementation from the description of an
     MDS matrix. They have lowered the cost of implementing the MixColumn matrix to
     97 bitwise xors, and proposed a new matrix with only 72 bitwise xors, the lowest cost
-    known so far.    
+    known so far. \r\n
     In this work we propose a different approach to global optimization. Instead of
     looking for an optimized circuit of a given matrix, we run a search through a space of
     circuits, to find optimal circuits yielding MDS matrices. This results in MDS matrices
