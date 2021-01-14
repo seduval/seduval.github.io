@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-permalink: /research
+permalink: /research/
 ---
 `$$x^2$$`
 $$x^2$$
@@ -17,10 +17,8 @@ $$x^2$$
                           <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
                           <h4 class="card-title">{{ publi.title }}</h4>
                           <h5> {{publi.co-authors}} </h5>
-
                           <h6 class="card-subtitle mb-2 text-muted">{{publi.venue}}, {{ publi.date | date: "%b %-d, %Y" }}</h6>  
                           <h7> {{publi.keywords}} </h7>
-
                           <p>
                               <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{publi.summary}}')">Abstract</button>
                  <a href="/research/added-latex-equations-support/" rel="noopener noreferrer" target=_blank class="btn btn-dark btn-lg">Test</a>
@@ -32,14 +30,12 @@ $$x^2$$
                   {% endfor %}
               </ul>
        </div>
-       
        <div class="col-6">
               <div class="card blog-post">
                  <h4 class="card-title">Abstract</h4>
                  <div id='abstractCard'> Test</div>
               </div>
        </div>
-
         <!--<div class="row center">
           {% if paginator.total_pages > 1 %}
             <ul class="pagination pagination-sm">
