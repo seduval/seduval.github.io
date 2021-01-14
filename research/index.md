@@ -26,9 +26,9 @@ permalink: /research/
                         <h5> {{publi.co-authors}} </h5>
                         <h6 class="card-subtitle mb-2 text-muted">{{publi.venue}}, {{ publi.date | date: "%b %-d, %Y" }}</h6>  
                         <h7> {{publi.keywords}} </h7>
-                        <h4 class="profile-links" style="margin-top: 8px">
-                            <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{publi.summary}}')">Abstract</button>
-                            <a href="{{ publi.doi | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Access</a>
+                        <h4>
+                            <button class="btn btn-dark btn-lg padtop" onclick="changeAbstract('{{publi.summary}}')">Abstract</button>
+                            <a href="{{ publi.doi | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg padtop">Access</a>
                             <span class="disqus-comment-count" data-disqus-identifier="{{ publi.url }}"></span>
                         </h4>
                     </div>
