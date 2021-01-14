@@ -1,5 +1,4 @@
-- mds-matrices-with-lightweight-circuits:
-    title:  "MDS Matrices with Lightweight Circuits"
+-   title:  "MDS Matrices with Lightweight Circuits"
     summary: "MDS matrices are an important element for the design of block ciphers such
     as the AES. In recent years, there has been a lot of work on the construction of MDS
     matrices with a low implementation cost, in the context of lightweight cryptography.
@@ -27,8 +26,7 @@
     usemathjax: true
     permalink: /research/mds-matrices-with-lightweight-circuits/
 
-- a-generalisation-of-dillons-apn-permutation:
-    title: "A Generalisation of Dillon's APN Permutation With the Best Known Differential and Nonlinear Properties for All Fields of Size \\(2^{4k+2}\\)"
+-   title: "A Generalisation of Dillon's APN Permutation With the Best Known Differential and Nonlinear Properties for All Fields of Size \\(2^{4k+2}\\)"
     summary: "The existence of almost perfect nonlinear (APN) permutations operating on an even number of variables was a long-standing open problem, until an example with six variables was exhibited by Dillon et al. in 2009. However it is still unknown whether this example can be generalized to any even number of inputs. In a recent work, Perrin et al. described an infinite family of permutations, named butterflies, operating on (4\\(k\\)+2) variables and with differential uniformity at most 4, which contains the Dillon APN permutation. In this paper, we generalize this family, and we completely solve the two open problems raised by Perrin et al. Indeed we prove that all functions in this larger family have the best known nonlinearity. We also show that this family does not contain any APN permutation besides the Dillon permutation, implying that all other functions have differential uniformity exactly four."
     author: Sébastien Duval
     co-authors: Anne Canteaut, Sébastien Duval, Léo Perrin
@@ -40,8 +38,7 @@
     usemathjax: true
     permalink: /research/a-generalisation-of-dillons-apn-permutation/
     
-- cryptanalysis-of-the-flip-family-of-stream-ciphers:
-    title: "Cryptanalysis of the FLIP Family of Stream Ciphers"
+-   title: "Cryptanalysis of the FLIP Family of Stream Ciphers"
     summary: "At Eurocrypt 2016, Méaux et al. proposed FLIP, a new family of stream ciphers intended for use in Fully Homomorphic Encryption systems. Unlike its competitors which either have a low initial noise that grows at each successive encryption, or a high constant noise, the FLIP family of ciphers achieves a low constant noise thanks to a new construction called filter permutator. In this paper, we present an attack on the early version of FLIP that exploits the structure of the filter function and the constant internal state of the cipher. Applying this attack to the two instantiations proposed by Méaux et al. allows for a key recovery in \\(2^{54}\\) basic operations (resp. \\(2^{68}\\)), compared to the claimed security of \\(2^{80}\\) (resp. \\(2^{128}\\))."
     author: Sébastien Duval
     co-authors: Sébastien Duval, Virginie Lallemand, Yann Rotella
@@ -53,8 +50,7 @@
     usemathjax: true
     permalink: /research/cryptanalysis-of-the-flip-family-of-stream-ciphers/
     
-- construction-of-lightweight-s-boxes-using-feistel-and-misty-structures:
-    title: "Construction of Lightweight S-Boxes using Feistel and MISTY structures"
+-   title: "Construction of Lightweight S-Boxes using Feistel and MISTY structures"
     summary: "The aim of this work is to find large S-Boxes, typically operating on \\(8\\) bits, having both good cryptographic properties and a low implementation cost. Such S-Boxes are suitable building-blocks in many lightweight block ciphers since they may achieve a better security level than designs based directly on smaller S-Boxes. We focus on S-Boxes corresponding to three rounds of a balanced Feistel and of a balanced MISTY structure, and generalize the recent results by Li and Wang on the best differential uniformity and linearity offered by such a construction. Most notably, we prove that Feistel networks supersede MISTY networks for the construction of \\(8\\)-bit permutations. Based on these results, we also provide a particular instantiation of an \\(8\\)-bit permutation with better properties than the S-Boxes used in several ciphers, including Robin, Fantomas or CRYPTON."
     author: Sébastien Duval
     co-authors: Anne Canteaut, Sébastien Duval, Gaëtan Leurent
