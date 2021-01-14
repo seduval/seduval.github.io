@@ -18,7 +18,7 @@ permalink: /research/
     <div class="col-6">
             <ul>
                 {% for publi in site.data.publications %}
-                <div class="card blog-post">
+                <div class="card blog-post" id="{{publi.id}}">
                     <!--<img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ publi.thumbnail }}">-->
                     <div class="card-body center">
                         <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->

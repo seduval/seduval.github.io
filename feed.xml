@@ -33,6 +33,13 @@ layout: null
         {% endif %}
       {% endif %}
     {% endfor %}
+    
+    {% for publi in site.data.publis %}
+    <item>
+        <title>{{publi.title |xml_escape}}</title>
+        <link>{{site.baseurl | prepend: site.url}}/research#{{ publi.id }}</link>
+    </item>
+    {% endfor %}
 
   </channel>
 </rss>
