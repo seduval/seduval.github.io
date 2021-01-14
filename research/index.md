@@ -28,7 +28,6 @@ permalink: /research/
                           <h7> {{publi.keywords}} </h7>
                           <div>
                               <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{publi.summary}}')">Abstract</button>
-                 <a href="/research/added-latex-equations-support/" rel="noopener noreferrer" target=_blank class="btn btn-dark btn-lg">Test</a>
                               <a href="{{ publi.doi | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Access</a>
                               <span class="disqus-comment-count" data-disqus-identifier="{{ publi.url }}"></span>
                           </div>
