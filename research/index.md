@@ -36,7 +36,7 @@ permalink: /research/
                   {% endfor %}
               </ul>
        </div>
-       <div class="col-6">
+       <div class="col-5">
               <div class="card blog-post">
                  <h4 class="card-title">Abstract</h4>
                  <div id='abstractCard'> Test</div>
