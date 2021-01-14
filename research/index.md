@@ -5,9 +5,6 @@ menus: header
 usemathjax: true
 permalink: /research/
 ---
-`$$x^2$$`
-$$x^2$$
-`tt`
  <div class=container-fluid">
  <div class="row" id="blog-posts-container">      
       <div class="col-6">
