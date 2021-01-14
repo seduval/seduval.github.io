@@ -30,7 +30,7 @@ permalink: /research/
                             <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{publi.summary}}')">Abstract</button>
                             <a href="{{ publi.doi | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Access</a>
                             <span class="disqus-comment-count" data-disqus-identifier="{{ publi.url }}"></span>
-                        <p class="profile-links">
+                        </p>
                     </div>
                 </div>
                 {% endfor %}
