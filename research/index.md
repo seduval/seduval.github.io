@@ -5,7 +5,14 @@ menus: header
 usemathjax: true
 permalink: /research/
 ---
-
+<script src="load-mathjax.js" async></script>
+  <script>
+    function changeAbstract(text) {
+      document.getElementById('abstractCard').setAttribute('style', 'white-space: pre-line;');
+      document.getElementById('abstractCard').textContent = text;
+    }
+  </script>
+  
  <div class="container-fluid">
  <div class="row" id="blog-posts-container">      
       <div class="col-6">
