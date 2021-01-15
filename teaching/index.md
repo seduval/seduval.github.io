@@ -10,7 +10,7 @@ permalink: /teaching/
         <div class="card">
             <h1 class="card-title"> Teaching </h1>
             {% for course in site.data.courses %}
-            <div class="row" style="text-align: center">
+            <div class="row card" style="text-align: center">
                 <div class="col-lg-2" style="display: inline-block">
                     {{course.year}}
                 </div>
@@ -26,8 +26,9 @@ permalink: /teaching/
                 <div class="col-lg-1" style="display: inline-block">
                     <a href='{{course.url}}' rel="noopener noreferrer" target=_blank class="btn btn-dark btn-lg">Access</a>                        
                 </div>
-                {% endfor %}
+          
             </div>
+            {% endfor %}
         </div>
         
     </div>
