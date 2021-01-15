@@ -1,3 +1,104 @@
+
+-   title:  "Exploring Crypto-Physical Dark Matter and Learning with Physical Rounding"
+    subtitle: "Towards Secure and Efficient Fresh Re-Keying"
+    summary: "State-of-the-art re-keying schemes can be viewed as a tradeoff between efficient but heuristic solutions based on binary field multiplications, that are only secure if implemented with a sufficient amount of noise, and formal but more expensive solutions based on weak pseudorandom functions, that remain secure if the adversary accesses their output in full. Recent results on “crypto dark matter” (TCC 2018) suggest that low-complexity pseudorandom functions can be obtained by mixing linear functions over different small moduli. In this paper, we conjecture that by mixing some matrix multiplications in a prime field with a physical mapping similar to the leakage functions exploited in side-channel analysis, we can build efficient re-keying schemes based on “crypto-physical dark matter”, that remain secure against an adversary who can access noise-free measurements. We provide first analyzes of the security and implementation properties that such schemes provide. Precisely, we first show that they are more secure than the initial (heuristic) proposal by Medwed et al. (AFRICACRYPT 2010). For example, they can resist attacks put forward by Belaid et al. (ASIACRYPT 2014), satisfy some relevant cryptographic properties and can be connected to a “Learning with Physical Rounding” problem that shares some similarities with standard learning problems. We next show that they are significantly more efficient than the weak pseudorandom function proposed by Dziembowski et al. (CRYPTO 2016), by exhibiting hardware implementation results."
+    author: Sébastien Duval
+    co-authors: Sébastien Duval, Pierrick Méaux, Charles Momin, François-Xavier Standaert
+    date: '2020-12-03'
+    category: Journal articles
+    venue: IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES)
+    keywords: Side-Channel Attacks, Fresh Re-Keying, Low-Complexity wPRFs, Learning With Rounding, Boolean Functions, Masking, Key-Homomorphism
+    doi: https://doi.org/10.46586/tches.v2021.i1.373-401
+    rg-link: https://www.researchgate.net/publication/346921622_Exploring_Crypto-Physical_Dark_Matter_and_Learning_with_Physical_Rounding_Towards_Secure_and_Efficient_Fresh_Re-Keying
+    dblp-link: https://dblp.org/rec/journals/tches/DuvalMMS21.html
+    usemathjax: true
+    permalink: /research/linear-fresh-rekeying/
+    id: "linfreshrekeying"
+
+-   title:  "A Systematic Appraisal of Side Channel Evaluation Strategies"
+    summary: "In this paper we examine the central question that is how well do side channel evaluation regimes capture the true security level of a product. Concretely, answering this question requires considering the optimality of the attack/evaluation strategy selected by the evaluator, and the various steps to instantiate it. We draw on a number of published works and discuss whether state-of-the-art solutions for the different steps of a side-channel security evaluation offer bounds or guarantees of optimality, or if they are inherently heuristic. We use this discussion to provide an informal rating of the steps’ optimality and to put forward where risks of overstated security levels remain."
+    author: Sébastien Duval
+    co-authors: Melissa Azouaoui, Davide Bellizia, Ileana Buhan, Nicolas Debande, Sébastien Duval, Christophe Giraud, Éliane Jaulmes, François Koeune, Elisabeth Oswald, François-Xavier Standaert, Carolyn Whitnall
+    date: '2020-11-24'
+    category: Conferences_with_proceedings
+    venue: International Conference on Research in Security Standardisation (SSR)
+    keywords: Side channels, Evaluation, Certification
+    doi: https://doi.org/10.1007/978-3-030-64357-7_3
+    rg-link: https://www.researchgate.net/publication/347133219_A_Systematic_Appraisal_of_Side_Channel_Evaluation_Strategies
+    dblp-link: https://dblp.org/rec/conf/secsr/AzouaouiBBDD0JK20.html
+    usemathjax: true
+    permalink: /research/sca-evaluation/
+    id: "scaeval"
+
+-   title:  "Saturnin: a suite of lightweight symmetric algorithms for post-quantum security"
+    summary: "The cryptographic algorithms needed to ensure the security of our communications have a cost. For devices with little computing power, whose number is expected to grow significantly with the spread of the Internet of Things (IoT), this cost can be a problem. A simple answer to this problem is a compromise on the security level: through a weaker round function or a smaller number of rounds, the security level can be decreased in order to cheapen the implementation of the cipher. At the same time, quantum computers are expected to disrupt the state of the art in cryptography in the near future. For public-key cryptography, the NIST has organized a dedicated process to standardize new algorithms. The impact of quantum computing is harder to assess in the symmetric case but its study is an active research area.
+In this paper, we specify a new block cipher, Saturnin, and its usage in different modes to provide hashing and authenticated encryption in such a way that we can rigorously argue its security in the post-quantum setting. Its security analysis follows naturally from that of the AES, while our use of components that are easily implemented in a bitsliced fashion ensures a low cost for our primitives. Our aim is to provide a new lightweight suite of algorithms that performs well on small devices, in particular micro-controllers, while providing a high security level even in the presence of quantum computers. Saturnin is a 256-bit block cipher with a 256-bit key and an additional 9-bit parameter for domain separation. Using it, we built two authenticated ciphers and a hash function.
+• Saturnin-CTR-Cascade is an authenticated cipher using the counter mode and a separate MAC. It requires two passes over the data but its implementation does not require the inverse block cipher.
+• Saturnin-Short is an authenticated cipher intended for messages with a length strictly smaller than 128 bits which uses only one call to Saturnin to providenconfidentiality and integrity.
+• Saturnin-Hash is a 256-bit hash function. 
+In this paper, we specify this suite of algorithms and argue about their security in both the classical and the post-quantum setting."
+    author: Sébastien Duval
+    co-authors: Anne Canteaut, Sébastien Duval, Gaëtan Leurent, María Naya-Plasencia, Léo Perrin, Thomas Pornin, André Schrottenloher
+    date: '2020-06-22'
+    category: Journal articles
+    venue: IACR Transactions on Symmetric Cryptology (ToSC)
+    keywords: Lightweight cryptography, Post-quantum security, Block cipher, Authenticated encryption, Hash function, AES, Duck
+    doi: https://doi.org/10.13154/tosc.v2020.iS1.160-207
+    rg-link: https://www.researchgate.net/publication/342663552_Saturnin_a_suite_of_lightweight_symmetric_algorithms_for_post-quantum_security
+    dblp-link: https://dblp.org/rec/journals/tosc/CanteautDLNPPS20.html
+    usemathjax: true
+    permalink: /research/saturnin/
+    id: "saturnin"
+
+-   title:  "Spook: Sponge-Based Leakage-Resistant Authenticated Encryption with a Masked Tweakable Block Cipher"
+    summary: "This paper defines Spook: a sponge-based authenticated encryption with associated data algorithm. It is primarily designed to provide security against side-channel attacks at a low energy cost. For this purpose, Spook is mixing a leakageresistant mode of operation with bitslice ciphers enabling efficient and low latency implementations. The leakage-resistant mode of operation leverages a re-keying function to prevent differential side-channel analysis, a duplex sponge construction to efficiently process the data, and a tag verification based on a Tweakable Block Cipher (TBC) providing strong data integrity guarantees in the presence of leakages. The underlying bitslice ciphers are optimized for the masking countermeasures against side-channel attacks. Spook is an efficient single-pass algorithm. It ensures state-of-the-art black box security with several prominent features: (i) nonce misuse-resilience, (ii) beyond-birthday security with respect to the TBC block size, and (iii) multiuser security at minimum cost with a public tweak. Besides the specifications and design rationale, we provide first software and hardware implementation results of (unprotected) Spook which confirm the limited overheads that the use of two primitives sharing internal components imply. We also show that the integrity of Spook with leakage, so far analyzed with unbounded leakages for the duplex sponge and a strongly protected TBC modeled as leak-free, can be proven with a much weaker unpredictability assumption for the TBC. We finally discuss external cryptanalysis results and tweaks to improve both the security margins and efficiency of Spook."
+    author: Sébastien Duval
+    co-authors: Davide Bellizia, Francesco Berti, Olivier Bronchain, Gaëtan Cassiers, Sébastien Duval, Chun Guo, Gregor Leander, Gaëtan Leurent, Itamar Levi, Charles Momin, Olivier Pereira, Thomas Peters François-Xavier Standaert, Balazs Udvarhelyi, Friedrich Wiemer
+    date: '2020-06-22'
+    category: Journal articles
+    venue: IACR Transactions on Symmetric Cryptology (ToSC)
+    keywords: Authenticated encryption, NIST lightweight cryptography standardization effort, Leakage-resistance, Bitslice ciphers, Masking countermeasure, Low energy
+    doi: https://doi.org/10.13154/tosc.v2020.iS1.295-349
+    rg-link: https://www.researchgate.net/publication/342663503_Spook_Sponge-Based_Leakage-Resistant_Authenticated_Encryption_with_a_Masked_Tweakable_Block_Cipher
+    dblp-link: https://dblp.org/rec/journals/tosc/BelliziaBBCDGLL20.html
+    usemathjax: true
+    permalink: /research/spook/
+    id: "spook"
+
+-   title:  "Low AND Depth and Efficient Inverses: a Guide on S-boxes for Low-latency Masking"
+    summary: "In this work, we perform an extensive investigation and construct a portfolio of S-boxes suitable for secure lightweight implementations, which aligns well with the ongoing NIST Lightweight Cryptography competition. In particular, we target good functional properties on the one hand and efficient implementations in terms of AND depth and AND gate complexity on the other. Moreover, we also consider the implementation of the inverse S-box and the possibility for it to share resources with the forward S-box. We take our exploration beyond the conventional small (and even) S-box sizes. Our investigation is twofold: (1) we note that implementations of existing S-boxes are not optimized for the criteria which define masking complexity (AND depth and AND gate complexity) and improve a tool published at FSE 2016 by Stoffelen in order to fill this gap. (2) We search for new S-box designs which take these implementation properties into account from the start. We perform a systematic search based on the properties of not only the S-box but also its inverse as well as an exploration of larger S-box sizes using length-doubling structures. The result of our investigation is not only a wide selection of very good S-boxes, but we also provide complete descriptions of their circuits, enabling their integration into future work."
+    author: Sébastien Duval
+    co-authors: Begül Bilgin, Lauren de Meyer, Sébastien Duval, Itamar Levi, François-Xavier Standaert
+    date: '2020-05-07'
+    category: Journal articles
+    venue: IACR Transactions on Symmetric Cryptology (ToSC)
+    keywords: S-box, Lightweight cryptography, Masking, Multiplicative complexity, AND depth
+    doi: https://doi.org/10.13154/tosc.v2020.i1.144-184
+    rg-link: https://www.researchgate.net/publication/341378208_Low_AND_Depth_and_Efficient_Inverses_a_Guide_on_S-boxes_for_Low-latency_Masking
+    dblp-link: https://dblp.org/rec/journals/tosc/BilginMDLS20.html
+    usemathjax: true
+    permalink: /research/low-and-depth/
+    id: "lowanddepth"
+
+-   title:  "Lightweight MACs from Universal Hash Functions"
+    summary: "Lightweight cryptography is a topic of growing importance, with the goal to secure the communication of low-end devices that are not powerful enough to use conventional cryptography. There have been many recent proposals of lightweight block ciphers, but comparatively few results on lightweight Message Authentication Codes (MACs).
+
+Therefore, this paper focuses on lightweight MACs. We review some existing constructions, and revisit the choices made in mainstream MACs with a focus on lightweight cryptography. We consider MACs based on universal hash functions, because they offer information theoretic security, can be implemented efficiently and are widely used in conventional cryptography. However, many constructions used in practice (such as GMAC or Poly1305-AES) follow the Wegman-Carter-Shoup construction, which is only secure up to \\(2^64\)) queries with a 128-bit state.
+
+We point out that there are simple solutions to reach security beyond the birthday bound, and we propose a concrete instantiation,   𝖬𝖠𝖢𝟨𝟣𝟣 , reaching 61-bit security with a 61-bit universal hash function. We wrote an optimized implementation on two ARM micro-controllers, and we obtain very good performances on the Cortex-M4, at only 3.7 c/B for long messages, and less than one thousand cycles for short messages."
+    author: Sébastien Duval
+    co-authors: Sébastien Duval, Gaëtan Leurent
+    date: '2019-03'
+    category: Conferences_with_proceedings
+    venue: Smart Card Research and Advanced Applications (CARDIS)
+    keywords: Lightweight cryptography, Micro-controller, MAC, Almost universal hash functions, Beyond-birthday-bound security 
+    doi: https://doi.org/10.1007/978-3-030-42068-0_12
+    rg-link: https://www.researchgate.net/publication/339788903_Lightweight_MACs_from_Universal_Hash_Functions
+    dblp-link: https://dblp.org/rec/conf/cardis/DuvalL19.html
+    usemathjax: true
+    permalink: /research/lightweight-macs/
+    id: "lightmacs"
+
 -   title:  "Constructions pour la cryptographie à bas coût"
     summary: "Cette thèse explore la construction de primitives de cryptographie symétrique. Nous parvenons à de meilleures constructions que celles de la littérature, en visant la réduction des coûts d'implémentation. Nous étudions trois types de primitives : les chiffrements par blocs, utilisées couramment pour le chiffrement symétrique, un chiffrement à flot utile pour une application spécifique et un algorithme d'authentification de messages.Nous réduisons les coûts des deux composants des chiffrements par blocs : la boîte-S et la matrice de diffusion. Les structures de Feistel et de type MISTY se révèlent performantes pour offrir une bonne sécurité à bas coût, et nous obtenons ainsi des boîtes-S offrant le meilleur compromis coût/sécurité connu. Nous étudions aussi la structure de Papillon qui produit des boîtes-S avec une excellente sécurité. Quant aux matrices de diffusion, nous développons un algorithme de recherche de matrices formelles, puis nous instancions les solutions pour obtenir des matrices optimales en termes de diffusion à des coûts moindres que celles de la littérature.Nous trouvons par ailleurs une faiblesse dans le chiffrement à flot FLIP créé pour répondre à des contraintes de coût spécifiques. Nous montrons que FLIP nécessite une étude différente des autres chiffrements à flot et en déduisons une attaque, ce qui a permis de mettre à jour FLIP pour obtenir un chiffrement à flot plus résistant.Enfin nous étudions les MAC, qui servent à l'authentification des messages. En combinant des idées de la littérature, nous créons un MAC moins coûteux que ceux utilisés en pratique pour une sécurité équivalente, en visant une implémentation sur micro-controlleurs 32 bits."
     author: Sébastien Duval
@@ -34,7 +135,7 @@
     co-authors: Sébastien Duval, Gaëtan Leurent
     date: '2018-06-07'
     category: Journal articles
-    venue: IACR Transactions on Symmetric Cryptology
+    venue: IACR Transactions on Symmetric Cryptology (ToSC)
     keywords: MDS matrix, Lightweight cryptography
     doi: https://doi.org/10.13154/tosc.v2018.i2.48-78
     rg-link: https://www.researchgate.net/publication/346703662_MDS_Matrices_with_Lightweight_Circuits
