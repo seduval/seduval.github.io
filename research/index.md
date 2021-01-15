@@ -15,7 +15,7 @@ permalink: /research/
 
 <div class="container-fluid">
     <div class="row" id="blog-posts-container">
-        <div class="col col-md-6">
+        <div class="col col-lg-6">
             <ul>
                 {% for publi in site.data.publications %}
                 <div class="card blog-post" id="{{publi.id}}">
@@ -31,7 +31,7 @@ permalink: /research/
                         <p> {{publi.keywords}} </p>
                         <br>
                             <p class="profile-links">
-                                <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{publi.summary}}')">Abstract</button>
+                                <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{publi.summary}}')" href="#abstractCard">Abstract</button>
                                 <a href="{{ publi.doi | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Access</a>
                                 <a href="{{ publi.rg-link | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">@RG</a>
                                 {% if publi.dblp-link %}
@@ -44,7 +44,7 @@ permalink: /research/
                     {% endfor %}
                 </ul>
             </div>
-            <div class="col col-md-5">
+            <div class="col col-lg-5">
                 <div class="card blog-post">
                     <h4 class="card-title">Abstract</h4>
                     <div id='abstractCard'></div>
