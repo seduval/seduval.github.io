@@ -11,17 +11,20 @@ permalink: /teaching/
             <h1 class="card-title"> Teaching </h1>
             <div class="row">
                 {% for course in site.data.courses %}
-                <div class="col-lg-2">
+                <div class="col-lg-2" style="display: inline-block">
                     {{course.year}}
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" style="display: inline-block">
                     {{course.level}}
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" style="display: inline-block">
                     {{course.university}}
                 </div>
-                <div class="col-lg-4">
-                    {{course.description}}<a href='{{course.url}}' rel="noopener noreferrer" target=_blank class="btn btn-dark btn-lg">Access</a>                        
+                <div class="col-lg-3" style="display: inline-block">
+                    {{course.description}}                 
+                </div>
+                <div class="col-lg-1" style="display: inline-block">
+                    <a href='{{course.url}}' rel="noopener noreferrer" target=_blank class="btn btn-dark btn-lg">Access</a>                        
                 </div>
                 {% endfor %}
             </div>
