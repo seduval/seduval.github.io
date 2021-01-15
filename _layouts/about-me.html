@@ -94,6 +94,34 @@ layout: default
           >
             <i class="fab fa-flickr"></i>
           </a>
+          {% endif %} {% if site.dblp_username %}
+          <a
+            class="social-link"
+            href="https://dblp.org/pid/{{site.dblp_username}}"
+          >
+            <i class="fab fa-dblp"></i>
+          </a>
+          {% endif %} {% if site.rg_username %}
+          <a
+            class="social-link"
+            href="https://www.researchgate.net/profile/{{site.rg_username}}"
+          >
+            <i class="fab fa-researchgate"></i>
+          </a>
+          {% endif %} {% if site.orcid %}
+          <a
+            class="social-link"
+            href="https://orcid.org/{{site.orcid}}"
+          >
+            <i class="fab fa-orcid"></i>
+          </a>
+          {% endif %} {% if site.scholar_username %}
+          <a
+            class="social-link"
+            href="https://scholar.google.com/citations?user={{site.orcid}}&hl=en"
+          >
+            <i class="fab fa-scholar"></i>
+          </a>
           {% endif %}
         </p>
 
