@@ -23,7 +23,7 @@ permalink: /teaching/
                 <div class="col-lg-4">
                     {{course.description}}<a href='{{course.url}}' target="_blank" rel="noopener noreferrer"><img src="assets/img/goto.png"/></a>                        
                 </div>
-                {% endif %}
+                {% endfor %}
             </div>
         </div>
         

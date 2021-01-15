@@ -14,8 +14,8 @@ permalink: /research/
 </script>
 
 <div class="container-fluid">
-<div class="row" id="blog-posts-container">
-    <div class="col-6">
+    <div class="row" id="blog-posts-container">
+        <div class="col col-md-6">
             <ul>
                 {% for publi in site.data.publications %}
                 <div class="card blog-post" id="{{publi.id}}">
@@ -30,61 +30,62 @@ permalink: /research/
                         <h6 class="card-subtitle mb-2 text-muted">{{publi.venue}}, {{ publi.date | date: "%b %-d, %Y" }}</h6>  
                         <p> {{publi.keywords}} </p>
                         <br>
-                        <p class="profile-links">
-                            <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{publi.summary}}')">Abstract</button>
-                             <a href="{{ publi.doi | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Access</a>
-                            <a href="{{ publi.rg-link | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">@RG</a>
-                            {% if publi.dblp-link %}
-                            <a href="{{ publi.dblp-link | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">@dblp</a>
-                            {% endif %}
-                        </p>
-                        
+                            <p class="profile-links">
+                                <button class="btn btn-dark btn-lg" onclick="changeAbstract('{{publi.summary}}')">Abstract</button>
+                                <a href="{{ publi.doi | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Access</a>
+                                <a href="{{ publi.rg-link | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">@RG</a>
+                                {% if publi.dblp-link %}
+                                <a href="{{ publi.dblp-link | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">@dblp</a>
+                                {% endif %}
+                            </p>
+                            
+                        </div>
                     </div>
-                </div>
-                {% endfor %}
-            </ul>
-    </div>
-    <div class="col-5">
-            <div class="card blog-post">
-                <h4 class="card-title">Abstract</h4>
-                <div id='abstractCard'></div>
+                    {% endfor %}
+                </ul>
             </div>
-    </div>
-        <!--<div class="row center">
-        {% if paginator.total_pages > 1 %}
+            <div class="col col-md-5">
+                <div class="card blog-post">
+                    <h4 class="card-title">Abstract</h4>
+                    <div id='abstractCard'></div>
+                </div>
+            </div>
+            <!--<div class="row center">
+            {% if paginator.total_pages > 1 %}
             <ul class="pagination pagination-sm">
             {% if paginator.previous_page %}
-                <li class="pagination-link"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
+            <li class="pagination-link"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
             {% else %}
-                <li class="pagination-link disabled"><span aria-hidden="true">&laquo;</span></li>
+            <li class="pagination-link disabled"><span aria-hidden="true">&laquo;</span></li>
             {% endif %}
-
+            
             <li class="pagination-link" ><a href="/research">First</a></li>
-
+            
             {% for page in (1..paginator.total_pages) %}
-                {% if page == paginator.page %}
-                <li class="active pagination-link"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
-                {% elsif page == 1 %}
-                <li class="pagination-link"><a href="/research">{{ page }}</a></li>
-                {% else %}
-                <li class="pagination-link"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-                {% endif %}
-            {% endfor %}
-
-            <li class="pagination-link"><a href="/research/page/{{ paginator.total_pages }}/#/">Last</a></li>
-
-            {% if paginator.next_page %}
-                <li class="pagination-link"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+            {% if page == paginator.page %}
+            <li class="active pagination-link"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
+            {% elsif page == 1 %}
+            <li class="pagination-link"><a href="/research">{{ page }}</a></li>
             {% else %}
-                <li class="disabled pagination-link"><span>&raquo;</span></li>
+            <li class="pagination-link"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+            {% endif %}
+            {% endfor %}
+            
+            <li class="pagination-link"><a href="/research/page/{{ paginator.total_pages }}/#/">Last</a></li>
+            
+            {% if paginator.next_page %}
+            <li class="pagination-link"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+            {% else %}
+            <li class="disabled pagination-link"><span>&raquo;</span></li>
             {% endif %}
             </ul>
-        {% endif %}
+            {% endif %}
+            </div>
+            
+            </div>
+            {%- include blog_sidebar.html -%}-->
+        </div>
     </div>
-
-    </div>
-    {%- include blog_sidebar.html -%}-->
-</div>
-</div>
-
-
+    
+    
+    
