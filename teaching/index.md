@@ -9,8 +9,8 @@ permalink: /teaching/
     <div class="col-lg-11 offset-md-1">
         <div class="card">
             <h1 class="card-title"> Teaching </h1>
-            <div class="row" style="text-align: center">
-                {% for course in site.data.courses %}
+            {% for course in site.data.courses %}
+            <div class="row card" style="text-align: center">
                 <div class="col-lg-2" style="display: inline-block">
                     {{course.year}}
                 </div>
