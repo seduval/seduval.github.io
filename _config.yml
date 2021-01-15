@@ -21,7 +21,30 @@ urls:
 
 author_logo: avatar.png
 author: Sébastien Duval
-author_bio: I am Sébastien Duval, cryptographer at the University of Versailles.
+author_bio: 'I am currently a post-doctoral researcher in France at the <a href="http://www.uvsq.fr/welcome-to-uvsq-406434.kjsp?RH=VF&RF=EN" target="_blank">University of Versailles</a>
+      in the
+      <a href="https://lmv.math.cnrs.fr/en/teams/cryptology-and-information-security-crypto/" target="_blank">Crypto team</a>.
+      I previously worked at 
+      <a href="https://uclouvain.be/en/index.html" target="_blank">UCLouvain</a>
+      in Belgium in the 
+      <a href="https://www-crypto.elen.ucl.ac.be/crypto/default/home" target="_blank">Crypto group</a>.
+      I obtained my PhD from 
+      <a href="https://www.sorbonne-universite.fr/en" target="_blank">Sorbonne University</a>
+      in 2018, which I undertook at 
+      <a href="https://www.inria.fr/en/" target="_blank">Inria</a>
+      as part of project-team 
+      <a href="https://www.rocq.inria.fr/secret/index.php?lg=en" target="_blank">SECRET</a>
+      under the supervision of 
+      <a href="https://who.rocq.inria.fr/Anne.Canteaut" target="_blank">Anne CANTEAUT</a>
+      and 
+      <a href="https://who.rocq.inria.fr/Gaetan.Leurent" target="_blank">Gaëtan LEURENT</a>.
+      <br>
+      The goal of my research is to merge the advances of symmetric-key cryptographie and of side-channel attacks resistance, in order to build cryptographic solutions resisting both classical attacks and attacks on the implementations, with a cost fit for the Internet of Things.
+      <br>
+      My interests include (1) the design of symmetric-key algorithms (ciphers, MACs and authenticated encryption schemes), (2) their statistical analysis, (3) the implementation of components or full cryptographic primitives (S-boxes, diffusion matrices, arithmetic over Boolean finite fields) in terms of logic circuits and onto implementations on micro-controllers and (4) counter-measures against side-channel and fault attacks. My main research subject is the combination of all these fields.
+      <br>
+      I taught for three years at Sorbonne University, in campus Pierre-et-Marie-Curie, for bachelor students in computer science, then I taught master students in electricity at UCLouvain for two years, and I currently teach bachelor students in computer science at University of Versailles.
+      </p>'
 author_email: "sebastien.duval at uvsq.fr"
 
 # Experiences
