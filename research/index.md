@@ -24,7 +24,7 @@ permalink: /research/
                         <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
                         <h4 class="card-title">{{ publi.title }}</h4>
                         <h5> {{publi.co-authors}} </h5>
-                        <h6 class="card-subtitle mb-2 text-muted">{{publi.venue}}, {{ publi.date | date_to_rfc822 }}</h6>  
+                        <h6 class="card-subtitle mb-2 text-muted">{{publi.venue}}, {{ publi.date | date: "%b %-d, %Y" }}</h6>  
                         <p> {{publi.keywords}} </p>
                         <br>
                         <p class="profile-links">
