@@ -82,10 +82,10 @@ In this paper, we specify this suite of algorithms and argue about their securit
 
 -   title:  "Lightweight MACs from Universal Hash Functions"
     summary: "Lightweight cryptography is a topic of growing importance, with the goal to secure the communication of low-end devices that are not powerful enough to use conventional cryptography. There have been many recent proposals of lightweight block ciphers, but comparatively few results on lightweight Message Authentication Codes (MACs).
+    
+    Therefore, this paper focuses on lightweight MACs. We review some existing constructions, and revisit the choices made in mainstream MACs with a focus on lightweight cryptography. We consider MACs based on universal hash functions, because they offer information theoretic security, can be implemented efficiently and are widely used in conventional cryptography. However, many constructions used in practice (such as GMAC or Poly1305-AES) follow the Wegman-Carter-Shoup construction, which is only secure up to \\(2^64\\) queries with a 128-bit state.
 
-Therefore, this paper focuses on lightweight MACs. We review some existing constructions, and revisit the choices made in mainstream MACs with a focus on lightweight cryptography. We consider MACs based on universal hash functions, because they offer information theoretic security, can be implemented efficiently and are widely used in conventional cryptography. However, many constructions used in practice (such as GMAC or Poly1305-AES) follow the Wegman-Carter-Shoup construction, which is only secure up to \\(2^64\)) queries with a 128-bit state.
-
-We point out that there are simple solutions to reach security beyond the birthday bound, and we propose a concrete instantiation,   𝖬𝖠𝖢𝟨𝟣𝟣 , reaching 61-bit security with a 61-bit universal hash function. We wrote an optimized implementation on two ARM micro-controllers, and we obtain very good performances on the Cortex-M4, at only 3.7 c/B for long messages, and less than one thousand cycles for short messages."
+    We point out that there are simple solutions to reach security beyond the birthday bound, and we propose a concrete instantiation,   𝖬𝖠𝖢𝟨𝟣𝟣 , reaching 61-bit security with a 61-bit universal hash function. We wrote an optimized implementation on two ARM micro-controllers, and we obtain very good performances on the Cortex-M4, at only 3.7 c/B for long messages, and less than one thousand cycles for short messages."
     author: Sébastien Duval
     co-authors: Sébastien Duval, Gaëtan Leurent
     date: '2019-03'
