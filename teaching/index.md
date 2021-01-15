@@ -21,7 +21,7 @@ permalink: /teaching/
                     {{course.university}}
                 </div>
                 <div class="col-lg-4">
-                    {{course.description}}<a href='{{course.url}}' target="_blank" rel="noopener noreferrer"><img src="assets/img/goto.png"/></a>                        
+                    {{course.description}}<a href='{{course.url}}' rel="noopener noreferrer" target=_blank class="btn btn-dark btn-lg">Access</a>                        
                 </div>
                 {% endfor %}
             </div>
