@@ -1315,3 +1315,17 @@ footer {
 .highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
+
+
+/* additional icons */
+add-icons {
+    height=100%;
+    width=100%;
+    object-fit: cover;
+}
+.fa-scholar:before {
+  content: "\f4f8"; }
+.fa-dblp:before {
+  content: "\f4f8"; }
+.fa-orcid:before {
+  content: "\f4f8"; }
