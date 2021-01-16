@@ -1,35 +1,35 @@
 - year: 2020
   university: Université de Versailles
   level: 2nd year
-  description: {%if fr%} "IN310 : Mathématiques pour l'informatique" {%else%} "IN310 : Mathematics for computer science" {%endif%}
+  description: "{%if fr%} IN310 : Mathématiques pour l'informatique {%else%} IN310 : Mathematics for computer science {%endif%}"
   url: https://defeo.lu/in310/
 
 - year: 2019-2020
   university: Université Cahtolique de Louvain
   level: Masters
-  description: {%if fr%} "LELEC2760 : Circuits et systèmes électroniques sûrs" {%else%} "LELEC2760 : Secure Electronic Circuits and Systems" {%endif%}
+  description: "{%if fr%} LELEC2760 : Circuits et systèmes électroniques sûrs {%else%} LELEC2760 : Secure Electronic Circuits and Systems {%endif%}"
   url: https://sites.uclouvain.be/archives-portail/cdc2019/cours-2019-lelec2760
 
 - year: 2016-2017
   university: Université Pierre et Marie Curie
   level: 2d year
-  description: {%if fr%} "2I002 : Eléments de programmation par objets avec Java" {%else%} "2I002 : Elements of object programming with Java" {%endif%}
+  description: "{%if fr%} 2I002 : Eléments de programmation par objets avec Java {%else%} 2I002 : Elements of object programming with Java {%endif%}"
   url: http://www-connex.lip6.fr/~guigue/wikihomepage/pmwiki.php?n=Course.CourseLI230
 
 - year: 2016-2017
   university: Université Pierre et Marie Curie
   level: 1st year
-  description: {%if fr%} "1I002 : Eléments de Programmation 2" {%else%} "1I002 : Elements of programming 2" {%endif%}
+  description: "{%if fr%} 1I002 : Eléments de Programmation 2 {%else%} 1I002 : Elements of programming 2 {%endif%}"
   url: https://www-licence.ufr-info-p6.jussieu.fr/lmd/licence/2015/ue/1I002-2016fev/
 
 - year: 2016
   university: Université Pierre et Marie Curie
   level: 2d year
-  description: {%if fr%} "2I001 : Programmation et structures de données en C" {%else%} "2I001 : Programming and data structures in C" {%endif%}
+  description: "{%if fr%} 2I001 : Programmation et structures de données en C {%else%} 2I001 : Programming and data structures in C {%endif%}"
   url: http://www-licence.ufr-info-p6.jussieu.fr/lmd/licence/public/espace_public/offres_formation/descr_ue.php?code_ue=2I001
   
 - year: 2016
   university: Université Pierre et Marie Curie
   level: 2d year
-  description: {%if fr%} "2I009 : Introduction aux Bases de Données" {%else%} "2I009 : Introduction to databases" {%endif%}
+  description: "{%if fr%} 2I009 : Introduction aux Bases de Données {%else%} 2I009 : Introduction to databases {%endif%}"
   url: http://www-bd.lip6.fr/wiki/site/start?redirect=1
