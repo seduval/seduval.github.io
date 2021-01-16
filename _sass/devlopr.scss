@@ -1042,7 +1042,7 @@ footer {
      background-repeat: no-repeat;
      border-radius: 25px;
      box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.7);
-     transition: background-image .7s ease-in-out;
+     transition: background-image 1s ease-in-out;
      outline: none;
      cursor: pointer;
      overflow: hidden;
@@ -1054,7 +1054,7 @@ footer {
      transition: background-image 1s ease-in-out;
  }
 
-/*
+
  .switch-lang:after {
      content: '';
      display: none;
@@ -1123,9 +1123,9 @@ footer {
      background-color: transparent;
      box-shadow: 5px -1px 0px #fff;
      filter: blur(0px);
-     animation: sun .7s forwards ease;
+/*      animation: sun .7s forwards ease; */
  }
-
+/*
  @keyframes sun {
      0% {
          transform: rotate(170deg);
@@ -1159,7 +1159,7 @@ footer {
          filter: blur(1px);
      }
  }
-
+*/
 
 
  .switch-lang:before {
@@ -1177,9 +1177,10 @@ footer {
          0px 0px 30px #f5deb4,
          inset 0px 0px 2px #efd3a3;
      transform-origin: 53px 10px;
-     animation: moon .7s forwards ease;
+/*      animation: moon .7s forwards ease; */
  }
 
+ /*
  @keyframes moon {
      0% {
          transform: rotate(0deg);
