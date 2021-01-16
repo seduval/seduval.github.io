@@ -21,11 +21,15 @@ function setStyles(styles) {
     document.getElementsByTagName('head')[0].appendChild(style);
 }
 
-function switchLang(lang) {
-    if (lang == 'en')
+function switchLang() {
+    if (lang == 'en') {
         setLang('fr');
-    else
+        lang = 'fr';
+    }
+    else {
         setLang('en');
+        lang = 'en';
+    }
 }
 
 function setLang(lang) {
