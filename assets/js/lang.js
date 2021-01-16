@@ -25,13 +25,14 @@ function switchLang() {
     if (lang == 'en') {
         setLang('fr');
         lang = 'fr';
+        document.getElementById("lang-toggle").checked = true;
     }
     else {
         setLang('en');
         lang = 'en';
+        document.getElementById("lang-toggle").checked = false;
     }
     document.referrer.hreflang = lang;
-    document.getElementById("lang-toggle").checked = true;
 }
 
 function setLang(lang) {
