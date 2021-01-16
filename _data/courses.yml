@@ -1,7 +1,7 @@
 - year: 2020
   university: Université de Versailles
   level: 2nd year
-  description: "{%if fr%} IN310 : Mathématiques pour l'informatique {%else%} IN310 : Mathematics for computer science {%endif%}"
+  description: '{%if fr%} IN310 : Mathématiques pour l'informatique {%else%} IN310 : Mathematics for computer science {%endif%}'
   url: https://defeo.lu/in310/
 
 - year: 2019-2020
