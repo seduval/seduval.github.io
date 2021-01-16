@@ -22,7 +22,11 @@ permalink: /teaching/
                         {{course.university}}
                     </div>
                     <div class="col-lg-3" style="display: inline-block">
-                        {{course.description}}                 
+                        {% if fr%}
+                        {{course.description_fr}}    
+                        {% else %}
+                        {{course.description}}
+                        {% endif %}
                     </div>
                     <div class="col-lg-1" style="display: inline-block">
                         <a href='{{course.url}}' rel="noopener noreferrer" target=_blank class="btn btn-dark btn-lg">Access</a>                        
