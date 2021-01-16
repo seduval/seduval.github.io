@@ -1037,7 +1037,7 @@ footer {
      appearance: none;
      -webkit-appearance: none;
 
-     background-image: url('assets/img/en.svg');
+     background-image: url('https://seduval.github.io/assets/img/en.svg');
      background-size: cover;
      background-repeat: no-repeat;
      border-radius: 25px;
@@ -1049,7 +1049,7 @@ footer {
  }
 
  .switch-lang:checked {
-     background-image: url('assets/img/fr.svg');
+     background-image: url('https://seduval.github.io/assets/img/fr.svg');
      background-size: cover;
      transition: background-image 1s ease-in-out;
  }
