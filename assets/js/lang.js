@@ -36,4 +36,15 @@ function setLangStyles(lang) {
     .join(' ');
 
     setStyles(styles);
+    
+    setPageTitleLang(lang)
+}
+
+function setPageTitleLang(lang) {
+    if (lang=='fr'){
+        page.title = page.title_fr;
+    }
+    else {
+        page.title = page.title_en;
+    }
 }
