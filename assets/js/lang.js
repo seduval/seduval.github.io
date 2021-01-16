@@ -31,6 +31,7 @@ function switchLang() {
         lang = 'en';
     }
     document.referrer.hreflang = lang;
+    document.getElementById("lang-toggle").checked = true;
 }
 
 function setLang(lang) {
