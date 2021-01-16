@@ -50,7 +50,7 @@ function setLangStyles(lang) {
     
 //     setPageTitleLang(lang)
 }
-
+/*
 function setPageTitleLang(lang) {
     if (lang=='fr'){
         page.title = page.title_fr;
@@ -58,4 +58,4 @@ function setPageTitleLang(lang) {
     else {
         page.title = page.title_en;
     }
-}
+}*/

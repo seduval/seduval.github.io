@@ -1,7 +1,5 @@
 ---
 layout: default
-title_en: Teaching
-title_fr: Enseignement
 title: Teaching
 permalink: /teaching/
 ---
