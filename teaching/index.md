@@ -23,7 +23,7 @@ permalink: /teaching/
                     </div>
                     <div class="col-lg-3" style="display: inline-block">
                         <p lang='en'>{{course.description}}</p>
-                        <p leng='fr'>{{course.description_fr}}</p>
+                        <p lang='fr'>{{course.description_fr}}</p>
                         <!--{% if site.fr %}
                         {{course.description_fr}}    
                         {% else %}
