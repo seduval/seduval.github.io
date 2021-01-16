@@ -30,7 +30,7 @@ function switchLang() {
         setLang('en');
         lang = 'en';
     }
-    window.location.hreflang = lang;
+    document.referrer.hreflang = lang;
 }
 
 function setLang(lang) {
