@@ -21,6 +21,13 @@ function setStyles(styles) {
     document.getElementsByTagName('head')[0].appendChild(style);
 }
 
+function switchLang(lang) {
+    if (lang == 'en')
+        setLang('fr');
+    else
+        setLang('en');
+}
+
 function setLang(lang) {
     setLangStyles(lang);
 }
@@ -37,7 +44,7 @@ function setLangStyles(lang) {
 
     setStyles(styles);
     
-    setPageTitleLang(lang)
+//     setPageTitleLang(lang)
 }
 
 function setPageTitleLang(lang) {
