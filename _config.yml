@@ -105,26 +105,31 @@ author_project_details:
               - project_thumbnail: spook.png
                 project_title: Spook
                 project_description: Sponge-Based Leakage-Resistant Authenticated Encryption
+                project_description_fr: Chiffrement authentifié résistant aux fuites basé sur les Éponges
                 project_url: https://www.spook.dev/
                 visibility: true
               - project_thumbnail: saturnin.png
                 project_title: Saturnin
                 project_description: A suite of lightweight symmetric algorithms for post-quantum security
+                project_description_fr: Une gamme d'algorithmes symétriques à bas coût pour la sécurité post-quantique
                 project_url: https://project.inria.fr/saturnin/
                 visibility: true
               - project_thumbnail: reassure.png
                 project_title: Reassure
                 project_description: Robust and Efficient Approaches to Evaluating Side Channel and Fault Attack Resilience
+                project_description_fr: Approches robustes et efficaces pour l'évaluation de la résilience aux attaques par canaux auxiliaires et fautes
                 project_url: https://reassure.eu/
                 visibility: true
               - project_thumbnail: anr-logo.png
                 project_title: ANR BLOC
-                project_description: Conception et analyse de chiffrements par blocs
+                project_description: Design ans analysis of block ciphers
+                project_description_fr: Conception et analyse de chiffrements par blocs
                 project_url: https://anr.fr/Project-ANR-11-INSE-0011
                 visibility: true
               - project_thumbnail: anr-logo.png
                 project_title: ANR BRUTUS
-                project_description: Chiffrements authentifiés et résistants aux attaques par canaux auxiliaires – BRUTUS
+                project_description: Authenticated encryption resistant to side channel attacks – BRUTUS
+                project_description_fr: Chiffrements authentifiés et résistants aux attaques par canaux auxiliaires – BRUTUS
                 project_url: https://anr.fr/Project-ANR-14-CE28-0015
                 visibility: true
 
