@@ -1,5 +1,6 @@
 title: Sébastien Duval
 subtitle: Doctor in Cryptography
+subtitle_fr: Docteur en Cryptographie
 description: >- # this means to ignore newlines until "baseurl:"
 typewrite-text: Doctor in Cryptography
 #fr: false
@@ -10,10 +11,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
     - text: Home
+      text_fr: Accueil
       url: /
     - text: Research
+      text_fr: Recherche
       url: /research
     - text: Teaching
+      text_fr: Enseignement
       url: /teaching
 
 # Edit Author details (For multi authors check _data/authors.yml)
@@ -44,6 +48,15 @@ author_bio: 'I am currently a post-doctoral researcher in France at the <a href=
       <br>
       I taught for three years at Sorbonne University, in campus Pierre-et-Marie-Curie, for bachelor students in computer science, then I taught master students in electricity at UCLouvain for two years, and I currently teach bachelor students in computer science at University of Versailles.
       </p>'
+author_bio_fr: "Je suis actuellement en post-doctorat à l'Université de Versailles dans l'équipe Crypto. Je travaillais précédemment à l'UCLouvain en Belgique dans l'équipe Crypto. J'ai obtenu mon doctorat de Sorbonne Université en 2018, effectué à Inria au sein de l'équipe-projet SECRET sous la supervision d' Anne CANTEAUT et de Gaëtan LEURENT. 
+L'objectif de mes recherche est de concilier les avancées de la cryptographie symétrique et de la résistance aux attaques par canaux auxiliaires, afin de construire des solutions cryptographiques résistantes aux attaques classiques et aux attaques sur les implémentations, à un coût adapté à l'internet des objets. 
+Mes centres d'intérêts comprennent
+la conception d'algorithmes de cryptographie symétrique (chiffrements, MACs et chiffrements authentifiés),
+leur analyse statistique,
+l'implémentation de composants ou de primitives cryptographiques complètes (boîtes-S, matrices de diffusion, arithmétique dans les corps finis Booléens) en termes de circuits logiques et jusqu'à des implémentations sur micro-contrôleurs,
+les contre-mesures aux attaques par canaux auxiliaires et attaques par fautes.
+Mon sujet de recherche principal est la combinaison de tous ces domaines. 
+J'ai enseigné pendant trois ans à Sorbonne Université, au campus Pierre-et-Marie-Curie, à des étudiants de licence d'informatique, puis pendant deux ans à des étudiants de master d'électricité à l'UCLouvain, et actuellement à des étudiants de licence d'informatique à l'Université de Versailles."
 author_email: "sebastien.duval at uvsq.fr"
 
 # Experiences
