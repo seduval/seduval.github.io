@@ -32,7 +32,8 @@ permalink: /teaching/
                         {% endif %}-->
                     </div>
                     <div class="col-lg-1" style="display: inline-block">
-                        <a href='{{course.url}}' rel="noopener noreferrer" target=_blank class="btn btn-dark btn-lg">Access</a>                        
+                        <a lang='en' href='{{course.url}}' rel="noopener noreferrer" target=_blank class="btn btn-dark btn-lg">Access</a>    
+                        <a lang='fr' href='{{course.url}}' rel="noopener noreferrer" target=_blank class="btn btn-dark btn-lg">Accès</a>    
                     </div>
                 </div>
             </div>
