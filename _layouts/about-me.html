@@ -178,7 +178,8 @@ layout: default
       <div class="tab-pane fade show active" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab">
         {%- if site.show_author_project_details == true -%}
         <div id="author_projects" class="card">
-          <h1 class="card-title">Projects</h1>
+          <h1 lang='en' class="card-title">Projects</h1>
+          <h1 lang='fr' class="card-title">Projets</h1>
           <br />
           {%- for project in site.author_project_details -%} {%- if project.visibility
           == true -%}
@@ -204,7 +205,8 @@ layout: default
       <div class="tab-pane fade" id="pills-experiences" role="tabpanel" aria-labelledby="pills-experiences-tab">
         {%- if site.show_author_work_experiences == true -%}
         <div class="card">
-          <h1 class="card-title">Work Experience</h1>
+          <h1 lang='en' class="card-title">Work Experience</h1>
+          <h1 lang='fr' class="card-title">Expériences professionnelles</h1>
           <br />
           {%- for exp in site.author_work_experiences -%} {%- if exp.visibility == true
           -%}
@@ -216,9 +218,11 @@ layout: default
               />
             </div>
             <div class="col">
-              <h4 class="experience-title"><a href="{{exp.company_url}}">{{- exp.designation -}}</a></h4>
+              <h4 lang='en' class="experience-title"><a href="{{exp.company_url}}">{{- exp.designation -}}</a></h4>
+              <h4 lang='fr' class="experience-title"><a href="{{exp.company_url}}">{{- exp.designation_fr -}}</a></h4>
               <h6 class="experience-info">{{- exp.company_name -}}</h6>
-              <p class="experience-desc">{{- exp.description -}}</p>
+              <p lang='en' class="experience-desc">{{- exp.description -}}</p>
+              <p lang='fr' class="experience-desc">{{- exp.description_fr -}}</p>
             </div>
           </div>
           {%- endif -%} {%- endfor -%}
@@ -228,7 +232,8 @@ layout: default
       <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
         {%- if site.show_author_education_details == true -%}
         <div class="card">
-          <h1 class="card-title">Education</h1>
+          <h1 lang='en' class="card-title">Education</h1>
+          <h1 lang='fr' class="card-title">Éducation</h1>
           <br />
           {%- for detail in site.author_education_details -%} {%- if detail.visibility
           == true -%}
@@ -240,9 +245,11 @@ layout: default
               />
             </div>
             <div class="col">
-              <h4 class="experience-title"><a href="{{detail.college_url}}">{{- detail.college_degree -}}</a></h4>
+              <h4 lang='en' class="experience-title"><a href="{{detail.college_url}}">{{- detail.college_degree -}}</a></h4>
+              <h4 lang='fr' class="experience-title"><a href="{{detail.college_url}}">{{- detail.college_degree_fr -}}</a></h4>
               <h6 class="experience-info">{{- detail.college_name -}}</h6>
-              <p class="experience-desc">{{- detail.description- }}</p>
+              <p lang='en' class="experience-desc">{{- detail.description -}}</p>
+              <p lang='fr' class="experience-desc">{{- detail.description_fr -}}</p>
             </div>
           </div>
           {%- endif -%} {%- endfor -%}

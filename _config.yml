@@ -88,19 +88,25 @@ author_work_experiences:
               company_logo: logo-lmv-2020.jpg
               company_url: https://lmv.math.cnrs.fr/
               designation: Post-doctoral researcher
+              designation_fr: Chercheur post-doctorant
               description: Designing cryptographic solutions for the IoT
+              description_fr: Conception de solution cryptographiques pour les objets connectés
               visibility: true
             - company_name: Université Catholique de Louvain
               company_logo: logo_UCLouvain.jpg
               company_url: https://uclouvain.be/fr/index.html
               designation: Post-doctoral researcher
-              description: Design of authenticated encryption schemes & Study of side-channel evaluation strategies
+              designation_fr: Chercheur post-doctorant
+              description: Design of authenticated encryption schemes & Study of leakage evaluation strategies
+              description_fr: Conception de schémas de chiffrement authentifié & étude des stratégies d'évaluation des fuites
               visibility: true
             - company_name: Inria
               company_logo: logo_inria.png
               company_url: https://www.inria.fr/en
               designation: PhD student
+              designation_fr: Doctorant
               description: Design of cryptographic solutions for lightweight security
+              description_fr: Conception de solutions cryptographiques pour la sécurité à bas coût
               visibility: true
 
 # Education
@@ -109,18 +115,23 @@ author_education_details:
                 college_name: UPMC - Sorbonne Universités
                 college_url: https://www.sorbonne-universite.fr/
                 college_degree: PhD in Cryptography
+                college_degree_fr: Doctorat en Cryptographie
                 description: Constructions for Lightweight Cryptography
+                description_fr: Constructions pour la cryptographie à bas coût
                 visibility: true
               - college_logo: Logo_telecom.jpeg
                 college_name: Télécom ParisTech
                 college_url: https://www.telecom-paris.fr/
-                college_degree: Ingénieur de Télécom ParisTech
+                college_degree: Ingénieur of Télécom ParisTech
+                college_degree_fr: Ingénieur de Télécom ParisTech
                 description: Masters with majors in Cryptography & Operations Research
+                description_fr: majeures en Cryptographie & Recherche opérationnelle
                 visibility: true
               - college_logo: logo_uvsq.png
                 college_name: Université de Versailles
                 college_url: https://www.uvsq.fr/
                 college_degree: Bachelor in Mathematics & Bachelor in Computer Science
+                college_degree_fr: Licence en Mathématiques & Licence en Informatique
                 visibility: true
 
 # Projects
