@@ -73,8 +73,8 @@ $(function () {
   function langButtonListen() {
     $('#switch-lang').click(function (event) {
       event.preventDefault();
-      $('[lang="fr"]').toggle();
-      $('[lang="en"]').toggle();
+      $("[lang='fr']").toggle();
+      $("[lang='en']").toggle();
       // Switch cookie stored language.
       if ($.cookie('lang') === 'en') {
         $.cookie('lang', 'fr', { expires: 7 });
@@ -91,10 +91,10 @@ $(function () {
   if ($.cookie('lang')) {
     var lang = $.cookie('lang');
     if (lang === 'en') {
-      $('[lang="fr"]').hide();
+      $("[lang='fr']").hide();
       langButtonListen();
     } else {
-      $('[lang="en"]').hide();
+      $("[lang='en']").hide();
       langButtonListen();
     }
   } else {
@@ -108,17 +108,17 @@ $(function () {
         $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?latlng='+lat+','+lng+'&sensor=true', null, function (response) {
           var country = response.results[response.results.length-1].formatted_address;
           if (country ===  'France') {
-            $('[lang="en"]').hide();
+            $("[lang='en']").hide();
             $.cookie('lang', 'fr', { expires: 7 });
             langButtonListen();
           } else {
-            $('[lang="fr"]').hide();
+            $("[lang='fr']").hide();
             $.cookie('lang', 'en', { expires: 7 });
             langButtonListen();
           }
         }).fail(function (err) {
           console.log('error: '+err);
-          $('[lang="fr"]').hide();
+          $("[lang='fr']").hide();
           $.cookie('lang', 'en', { expires: 7 });
           langButtonListen();
         });
@@ -126,19 +126,19 @@ $(function () {
       function (error) {
         if (error.code == error.PERMISSION_DENIED) {
           // denied geolocation
-          $('[lang="fr"]').hide();
+          $("[lang='fr']").hide();
           $.cookie('lang', 'en', { expires: 7 });
           langButtonListen();
         } else {
           console.log('Unknown error. Defaulting to English!');
-          $('[lang="fr"]').hide();
+          $("[lang='fr']").hide();
           $.cookie('lang', 'en', { expires: 7 });
           langButtonListen();
         }
       });
     } else {
       // geolocation IS NOT available
-      $('[lang="fr"]').hide();
+      $("[lang='fr']").hide();
       $.cookie('lang', 'en', { expires: 7 });
       langButtonListen());
     }
