@@ -91,6 +91,8 @@ $(function () {
   // Initially disable language switching button.
   $('#switch-lang').css({'pointer-events':'none',
    'cursor':'default'}).attr('disabled','disabled');
+   $("[lang='fr']").hide();
+   $("[lang='en']").hide();
 
   function langButtonListen() {
     $('#switch-lang').click(function (event) {
