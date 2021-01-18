@@ -68,6 +68,7 @@ function setCookie(cname, cvalue, exdays) {
   d.setTime(d.getTime() + (exdays * 60 * 60 * 1000));
   var expires = "expires="+d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  alert("Here");
 }
 
 function getCookie(cname) {
@@ -85,7 +86,7 @@ function getCookie(cname) {
   return "";
 }
 
-$(function () {
+$(function () {alert("There");
   ///// Language Switching (2 languages: English and French). /////
 
   // Initially disable language switching button.
