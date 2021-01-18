@@ -53,7 +53,7 @@ permalink: /research/
                                 <a href="{{ publi.dblp-link }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">@dblp</a>
                                 {% endif %}
                                 {% if publi.video-link %}
-                                <a href="{{ publi.video-link }}" rel="noopener noreferrer" target="_blank" class="btn btn-dark btn-lg"><img src="./images/video_logo.png" width="20" /></a>
+                                <a href="{{ publi.video-link }}" rel="noopener noreferrer" target="_blank" class="btn btn-dark btn-lg"><img src="{{site.url}}{{site.baseurl}}/assets/img/video_logo.png" width="20" /></a>
                                 {% endif %}
                             </p>
                             
@@ -67,6 +67,20 @@ permalink: /research/
                     <h4 lang='en' class="card-title">Abstract</h4>
                     <h4 lang='fr' class="card-title">Résumé</h4>
                     <div id='abstractCard'></div>
+                </div>
+            </div>
+            <div class="col col-lg-5">
+                <div class="card blog-post">
+                    <h4 lang='en' class="card-title">Reviewer</h4>
+                    <h4 lang='fr' class="card-title">Relecteur</h4>
+                    <div id='reviewerCardJournals'>
+                        <h5 lang='en' class="card-subtitle">Journals<h5>
+                        <h5 lang='fr' class="card-subtitle">Journaux<h5>
+                        <p> site.data.reviews.journals </p>
+                        <h5 lang='en' class="card-subtitle">Conferences with program commitee<h5>
+                        <h5 lang='fr' class="card-subtitle">Conférences avec comité de programme<h5>
+                        <p> site.data.reviews.conferences </p>
+                    </div>
                 </div>
             </div>
             <!--<div class="row center">
