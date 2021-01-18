@@ -68,8 +68,6 @@ permalink: /research/
                     <h4 lang='fr' class="card-title">Résumé</h4>
                     <div id='abstractCard'></div>
                 </div>
-            </div>
-            <div class="col col-lg-5">
                 <div class="card blog-post">
                     <h4 lang='en' class="card-title">Reviewer</h4>
                     <h4 lang='fr' class="card-title">Relecteur</h4>
