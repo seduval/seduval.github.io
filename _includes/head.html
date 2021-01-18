@@ -12,18 +12,19 @@
    <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %},{{ page.keywords | escape }}"/>
 
    <!-- Jquery -->
-  <script
+  <!--<script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
     crossorigin="anonymous"
-  ></script>
+  ></script>-->
+  
+  <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery/dist/jquery.min.js"></script>
   
   <!-- Javascript Cookies -->
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
   
   <script src="{{site.url}}{{site.baseurl}}/assets/js/lang.js"></script>
   
-  <!-- <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery/dist/jquery.min.js"></script> -->
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery.easing/jquery.easing.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery-mousewheel/jquery.mousewheel.min.js"></script>
