@@ -115,10 +115,10 @@ $(function () {
   if (Cookies.get("lang")) {
     var lang = Cookies.get('lang');
     if (lang === 'en') {
-      $("[lang='fr']").hide();
+      $("[lang='en']").show();
       langButtonListen();
     } else {
-      $("[lang='en']").hide();
+      $("[lang='fr']").show();
       langButtonListen();
     }
   } else {
