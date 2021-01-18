@@ -53,7 +53,7 @@ permalink: /research/
                                 <a href="{{ publi.dblp-link }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">@dblp</a>
                                 {% endif %}
                                 {% if publi.video-link %}
-                                <a href="{{ publi.video-link }}" rel="noopener noreferrer" target="_blank" class="btn btn-dark btn-lg"><img src="{{site.url}}{{site.baseurl}}/assets/img/video_logo.png" width="20" /></a>
+                                <a href="{{ publi.video-link }}" rel="noopener noreferrer" target="_blank" class="btn btn-dark btn-lg"><img src="{{site.url}}{{site.baseurl}}/assets/img/video_logo.png"/></a>
                                 {% endif %}
                             </p>
                             
