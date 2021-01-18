@@ -94,7 +94,7 @@ $(function () {
 
   function langButtonListen() {
     $('#switch-lang').click(function (event) {
-      event.preventDefault();
+//       event.preventDefault();
       $("[lang='fr']").toggle();
       $("[lang='en']").toggle();
       // Switch cookie stored language.
