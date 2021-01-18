@@ -16,8 +16,11 @@ permalink: /teaching/
                     <div class="col-lg-2" style="display: inline-block">
                         {{-course.year-}}
                     </div>
-                    <div class="col-lg-3" style="display: inline-block">
+                    <div lang='en' class="col-lg-3" style="display: inline-block">
                         {{-course.level-}}
+                    </div>
+                    <div lang='fr' class="col-lg-3" style="display: inline-block">
+                        {{- course.level_fr -}}
                     </div>
                     <div class="col-lg-3" style="display: inline-block">
                         {{-course.university-}}
