@@ -54,7 +54,7 @@ permalink: /research/
                                 {%- endif -%}
                                 {%- if publi.video-link -%}
                                 <a lang='en' href="{{- publi.video-link -}}" rel="noopener noreferrer" target="_blank" class="btn btn-dark btn-lg btn-video">Video</a>
-                                <a lang='fr' href="{{- publi.video-link -}}" rel="noopener noreferrer" target="_blank" class="btn btn-dark btn-lg btn-video">Vidéo</a>
+                                <a lang='fr' href="{{- publi.video-link -}}" rel="noopener noreferrer" target="_blank" class="btn btn-dark btn-lg">Vidéo</a>
                                 {%- endif -%}
                             </p>
                             
