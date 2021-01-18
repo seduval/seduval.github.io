@@ -53,7 +53,7 @@ permalink: /research/
                                 <a href="{{- publi.dblp-link -}}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{- publi.url -}}" class="btn btn-dark btn-lg">@dblp</a>
                                 {%- endif -%}
                                 {%- if publi.video-link -%}
-                                <a href="{{- publi.video-link -}}" rel="noopener noreferrer" target="_blank" class="btn btn-dark btn-lg btn-video"></a>
+                                <a href="{{- publi.video-link -}}" rel="noopener noreferrer" target="_blank" class="btn btn-dark btn-lg btn-video">Test</a>
                                 {%- endif -%}
                             </p>
                             
