@@ -168,3 +168,5 @@ $(function () {alert("There");
       langButtonListen();
     }
   }
+}
+);
