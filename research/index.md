@@ -5,7 +5,7 @@ menus: header
 usemathjax: true
 permalink: /research/
 ---
-<!--<script src="load-mathjax.js" async></script>-->
+
 <script>
     function changeAbstract(text) {
     document.getElementById('abstractCard').setAttribute('style', 'white-space: pre-line;');
@@ -46,11 +46,14 @@ permalink: /research/
                                 <button lang='fr' class="btn btn-dark btn-lg" onclick="changeAbstract('{{publi.summary}}')" href="#abstractCard">Résumé</button>
                                 {% endif %}
                                 <button lang='en' class="btn btn-dark btn-lg" onclick="changeAbstract('{{publi.summary}}')" href="#abstractCard">Abstract</button>
-                                <a lang='en' href="{{ publi.doi | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Access</a>
-                                <a lang='fr' href="{{ publi.doi | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Accès</a>
-                                <a href="{{ publi.rg-link | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">@RG</a>
+                                <a lang='en' href="{{ publi.doi }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Access</a>
+                                <a lang='fr' href="{{ publi.doi }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">Accès</a>
+                                <a href="{{ publi.rg-link }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">@RG</a>
                                 {% if publi.dblp-link %}
-                                <a href="{{ publi.dblp-link | prepend: site.baseurl }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">@dblp</a>
+                                <a href="{{ publi.dblp-link }}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{ publi.url }}" class="btn btn-dark btn-lg">@dblp</a>
+                                {% endif %}
+                                {% if publi.video-link %}
+                                <a href="{{ publi.video-link }}" rel="noopener noreferrer" target="_blank" class="btn btn-dark btn-lg"><img src="./images/video_logo.png" width="20" /></a>
                                 {% endif %}
                             </p>
                             
