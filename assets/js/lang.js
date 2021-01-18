@@ -91,8 +91,6 @@ $(function () {
   // Initially disable language switching button.
   $('#switch-lang').css({'pointer-events':'none',
    'cursor':'default'}).attr('disabled','disabled');
-   $("[lang='fr']").hide();
-   $("[lang='en']").hide();
 
   function langButtonListen() {
     $('#switch-lang').click(function (event) {
@@ -115,10 +113,10 @@ $(function () {
   if (Cookies.get("lang")) {
     var lang = Cookies.get('lang');
     if (lang === 'en') {
-      $("[lang='en']").show();
+      $("[lang='fr']").hide();
       langButtonListen();
     } else {
-      $("[lang='fr']").show();
+      $("[lang='en']").hide();
       langButtonListen();
     }
   } else {
