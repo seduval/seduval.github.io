@@ -63,30 +63,29 @@
 //     }
 // }*/
 
-function setCookie(cname, cvalue, exdays) {
-  var d = new Date();
-  d.setTime(d.getTime() + (exdays * 60 * 60 * 1000));
-  var expires = "expires="+d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-  alert("Here");
-}
+// function setCookie(cname, cvalue, exdays) {
+//   var d = new Date();
+//   d.setTime(d.getTime() + (exdays * 60 * 60 * 1000));
+//   var expires = "expires="+d.toUTCString();
+//   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+// }
+// 
+// function getCookie(cname) {
+//   var name = cname + "=";
+//   var ca = document.cookie.split(';');
+//   for(var i = 0; i < ca.length; i++) {
+//     var c = ca[i];
+//     while (c.charAt(0) == ' ') {
+//       c = c.substring(1);
+//     }
+//     if (c.indexOf(name) == 0) {
+//       return c.substring(name.length, c.length);
+//     }
+//   }
+//   return "";
+// }
 
-function getCookie(cname) {
-  var name = cname + "=";
-  var ca = document.cookie.split(';');
-  for(var i = 0; i < ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
-
-$(function () {alert("There");
+$(function () {
   ///// Language Switching (2 languages: English and French). /////
 
   // Initially disable language switching button.
@@ -96,15 +95,13 @@ $(function () {alert("There");
   function langButtonListen() {
     $('#switch-lang').click(function (event) {
       event.preventDefault();
+      $("[lang='fr']").toggle();
+      $("[lang='en']").toggle();
       // Switch cookie stored language.
-      if (getCookie("lang") === 'en') {
-        setCookie('lang', 'fr', 3);
-        $("[lang='fr']").display = "block";
-        $("[lang='en']").display = "none";
+      if (Cookies.get("lang") === 'en') {
+        Cookies.set('lang', 'fr', { expires: 7 }, path: '/', secure: true);
       } else {
-        setCookie('lang', 'en', 3);
-        $("[lang='en']").display = "block";
-        $("[lang='fr']").display = "none";
+        Cookies.set('lang', 'en', { expires: 7 }, path: '/', secure: true);
       }
     });
     // Enable lang switching button.
@@ -113,13 +110,13 @@ $(function () {alert("There");
   }
 
   // Check if language cookie already exists.
-  if (getCookie("lang")) {
-    var lang = getCookie('lang');
+  if (Cookies.get("lang")) {
+    var lang = Cookies.get('lang');
     if (lang === 'en') {
-      $("[lang='fr']").display = "none";
+      $("[lang='fr']").hide();
       langButtonListen();
     } else {
-      $("[lang='en']").display = "none";
+      $("[lang='en']").hide();
       langButtonListen();
     }
   } else {
@@ -133,38 +130,38 @@ $(function () {alert("There");
         $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?latlng='+lat+','+lng+'&sensor=true', null, function (response) {
           var country = response.results[response.results.length-1].formatted_address;
           if (country ===  'France') {
-            $("[lang='en']").display = "none";
-            setCookie('lang', 'fr', 3);
+            $("[lang='en']").hide();
+            Cookies.set('lang', 'fr', { expires: 7 }, path: '/', secure: true);
             langButtonListen();
           } else {
-            $("[lang='fr']").display = "none";
-            setCookie('lang', 'en', 3);
+            $("[lang='fr']").hide();
+            Cookies.set('lang', 'en', { expires: 7 }, path: '/', secure: true);
             langButtonListen();
           }
         }).fail(function (err) {
           console.log('error: '+err);
-          $("[lang='fr']").display = "none";
-          setCookie('lang', 'en', 3);
+          $("[lang='fr']").hide();
+          Cookies.set('lang', 'en', { expires: 7 }, path: '/', secure: true);
           langButtonListen();
         });
       },
       function (error) {
         if (error.code == error.PERMISSION_DENIED) {
           // denied geolocation
-          $("[lang='fr']").display = "none";
-          setCookie('lang', 'en', 3);
+          $("[lang='fr']").hide();
+          Cookies.set('lang', 'en', { expires: 7 }, path: '/', secure: true);
           langButtonListen();
         } else {
           console.log('Unknown error. Defaulting to English!');
-          $("[lang='fr']").display = "none";
-          setCookie('lang', 'en', 3);
+          $("[lang='fr']").hide();
+          Cookies.set('lang', 'en', { expires: 7 }, path: '/', secure: true);
           langButtonListen();
         }
       });
     } else {
       // geolocation IS NOT available
-      $("[lang='fr']").display = "none";
-      setCookie('lang', 'en', 3);
+      $("[lang='fr']").hide();
+      Cookies.set('lang', 'en', { expires: 7 }, path: '/', secure: true);
       langButtonListen();
     }
   }
