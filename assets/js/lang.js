@@ -165,6 +165,6 @@ $(function () {alert("There");
       // geolocation IS NOT available
       $("[lang='fr']").display = "none";
       setCookie('lang', 'en', 3);
-      langButtonListen());
+      langButtonListen();
     }
   }
