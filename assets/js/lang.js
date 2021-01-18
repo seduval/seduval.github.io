@@ -95,13 +95,15 @@ $(function () {
   function langButtonListen() {
     $('#switch-lang').click(function (event) {
       event.preventDefault();
-      $("[lang='fr']").display = "block";
-      $("[lang='en']").display = "block";
       // Switch cookie stored language.
       if (getCookie("lang") === 'en') {
         setCookie('lang', 'fr', 3);
+        $("[lang='fr']").display = "block";
+        $("[lang='en']").display = "none";
       } else {
         setCookie('lang', 'en', 3);
+        $("[lang='en']").display = "block";
+        $("[lang='fr']").display = "none";
       }
     });
     // Enable lang switching button.
