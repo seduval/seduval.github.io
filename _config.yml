@@ -16,7 +16,7 @@ les contre-mesures aux attaques par canaux auxiliaires et attaques par fautes.
 Mon sujet de recherche principal est la combinaison de tous ces domaines. 
 J'ai enseigné pendant trois ans à Sorbonne Université, au campus Pierre-et-Marie-Curie, à des étudiants de licence d'informatique, puis pendant deux ans à des étudiants de master d'électricité à l'UCLouvain, et actuellement à des étudiants de licence d'informatique à l'Université de Versailles."
 typewrite-text: Doctor in Cryptography
-logo: avatar.jpg
+logo: avatar.jpeg
   
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
@@ -35,7 +35,7 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: avatar.jpg
+author_logo: avatar.jpeg
 author: Sébastien Duval
 author_bio: 'I am currently a post-doctoral researcher in France at the <a href="http://www.uvsq.fr/welcome-to-uvsq-406434.kjsp?RH=VF&RF=EN" target="_blank">University of Versailles</a>
       in the
@@ -98,7 +98,7 @@ author_bio_fr: "Je suis actuellement en post-doctorat à <a href='http://www.uvs
 # Experiences
 author_work_experiences:
             - company_name: Université de Versailles
-              company_logo: logo-lmv-2020.jpg
+              company_logo: logo-lmv-2020.jpeg
               company_url: https://lmv.math.cnrs.fr/
               designation: Post-doctoral researcher
               designation_fr: Chercheur post-doctorant
@@ -106,7 +106,7 @@ author_work_experiences:
               description_fr: Conception de solution cryptographiques pour les objets connectés
               visibility: true
             - company_name: Université Catholique de Louvain
-              company_logo: logo_UCLouvain.jpg
+              company_logo: logo_UCLouvain.jpeg
               company_url: https://uclouvain.be/fr/index.html
               designation: Post-doctoral researcher
               designation_fr: Chercheur post-doctorant
@@ -114,7 +114,7 @@ author_work_experiences:
               description_fr: Conception de schémas de chiffrement authentifié & étude des stratégies d'évaluation des fuites
               visibility: true
             - company_name: Inria
-              company_logo: logo_inria.jpg
+              company_logo: logo_inria.jpeg
               company_url: https://www.inria.fr/en
               designation: PhD student
               designation_fr: Doctorant
@@ -124,7 +124,7 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: UPMC_Sorbonne_Universites.jpg
+              - college_logo: UPMC_Sorbonne_Universites.jpeg
                 college_name: UPMC - Sorbonne Universités
                 college_url: https://www.sorbonne-universite.fr/
                 college_degree: PhD in Cryptography
@@ -140,7 +140,7 @@ author_education_details:
                 description: Masters with majors in Cryptography & Operations Research
                 description_fr: majeures en Cryptographie & Recherche opérationnelle
                 visibility: true
-              - college_logo: logo_uvsq.jpg
+              - college_logo: logo_uvsq.jpeg
                 college_name: Université de Versailles
                 college_url: https://www.uvsq.fr/
                 college_degree: Bachelor in Mathematics & Bachelor in Computer Science
@@ -149,31 +149,31 @@ author_education_details:
 
 # Projects
 author_project_details:
-              - project_thumbnail: spook.jpg
+              - project_thumbnail: spook.jpeg
                 project_title: Spook
                 project_description: Sponge-Based Leakage-Resistant Authenticated Encryption
                 project_description_fr: Chiffrement authentifié résistant aux fuites basé sur les Éponges
                 project_url: https://www.spook.dev/
                 visibility: true
-              - project_thumbnail: saturnin.jpg
+              - project_thumbnail: saturnin.jpeg
                 project_title: Saturnin
                 project_description: A suite of lightweight symmetric algorithms for post-quantum security
                 project_description_fr: Une gamme d'algorithmes symétriques à bas coût pour la sécurité post-quantique
                 project_url: https://project.inria.fr/saturnin/
                 visibility: true
-              - project_thumbnail: reassure.jpg
+              - project_thumbnail: reassure.jpeg
                 project_title: Reassure
                 project_description: Robust and Efficient Approaches to Evaluating Side Channel and Fault Attack Resilience
                 project_description_fr: Approches robustes et efficaces pour l'évaluation de la résilience aux attaques par canaux auxiliaires et fautes
                 project_url: https://reassure.eu/
                 visibility: true
-              - project_thumbnail: anr-logo.jpg
+              - project_thumbnail: anr-logo.jpeg
                 project_title: ANR BLOC
                 project_description: Design ans analysis of block ciphers
                 project_description_fr: Conception et analyse de chiffrements par blocs
                 project_url: https://anr.fr/Project-ANR-11-INSE-0011
                 visibility: true
-              - project_thumbnail: anr-logo.jpg
+              - project_thumbnail: anr-logo.jpeg
                 project_title: ANR BRUTUS
                 project_description: Authenticated encryption resistant to side channel attacks – BRUTUS
                 project_description_fr: Chiffrements authentifiés et résistants aux attaques par canaux auxiliaires – BRUTUS
