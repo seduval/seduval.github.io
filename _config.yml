@@ -43,7 +43,7 @@ urls:
 
 author_logo: avatar.jpeg
 author: Sébastien Duval
-author_bio: 'I am currently a post-doctoral researcher in France at the <a href="http://www.uvsq.fr/welcome-to-uvsq-406434.kjsp?RH=VF&RF=EN" target="_blank">University of Versailles</a>
+author_bio: '<p>I am currently a post-doctoral researcher in France at the <a href="http://www.uvsq.fr/welcome-to-uvsq-406434.kjsp?RH=VF&RF=EN" target="_blank">University of Versailles</a>
       in the
       <a href="https://lmv.math.cnrs.fr/en/teams/cryptology-and-information-security-crypto/" target="_blank">Crypto team</a>.
       I previously worked at 
@@ -60,15 +60,21 @@ author_bio: 'I am currently a post-doctoral researcher in France at the <a href=
       <a href="https://who.rocq.inria.fr/Anne.Canteaut" target="_blank">Anne CANTEAUT</a>
       and 
       <a href="https://who.rocq.inria.fr/Gaetan.Leurent" target="_blank">Gaëtan LEURENT</a>.
+      </p>
+      <p>
+      My work is about symmetric-key cryptology: I design ciphers and MACs for encryption and authentication, with a special focus on the security of the Internet of Things (like in Spook). I also design security solutions for post-quantum cryptography like Saturnin (for when the attacker has access to a quantum computer), and perform attacks and cryptanalysis of cryptographic algorithms. Additionnally, I teach at Bachelor and Masters levels, in mathematics and computer science.
+      </p>
       <br>
+      <p>
       The goal of my research is to merge the advances of symmetric-key cryptographie and of side-channel attacks resistance, in order to build cryptographic solutions resisting both classical attacks and attacks on the implementations, with a cost fit for the Internet of Things.
       <br>
       My interests include (1) the design of symmetric-key algorithms (ciphers, MACs and authenticated encryption schemes), (2) their statistical analysis, (3) the implementation of components or full cryptographic primitives (S-boxes, diffusion matrices, arithmetic over Boolean finite fields) in terms of logic circuits and onto implementations on micro-controllers and (4) counter-measures against side-channel and fault attacks. My main research subject is the combination of all these fields.
+      </p>
       <br>
       <p>
       I taught for three years at Sorbonne University, in campus Pierre-et-Marie-Curie, for bachelor students in computer science, then I taught master students in electricity at UCLouvain for two years, and I currently teach bachelor students in computer science at University of Versailles.
       </p>'
-author_bio_fr: "Je suis actuellement en post-doctorat à <a href='http://www.uvsq.fr/' target='_blank'>l'Université de Versailles</a>
+author_bio_fr: "<p>Je suis actuellement en post-doctorat à <a href='http://www.uvsq.fr/' target='_blank'>l'Université de Versailles</a>
       dans l'équipe
       <a href='https://lmv.math.cnrs.fr/equipes/cryptologie/' target='_blank'>Crypto</a>.
       Je travaillais précédemment à 
@@ -85,7 +91,12 @@ author_bio_fr: "Je suis actuellement en post-doctorat à <a href='http://www.uvs
       <a href='https://who.rocq.inria.fr/Anne.Canteaut' target='_blank'>Anne CANTEAUT</a>
       et de 
       <a href='https://who.rocq.inria.fr/Gaetan.Leurent' target='_blank'>Gaëtan LEURENT</a>.
+      </p>
+      <p>
+      Mon travail concerne la cryptologie symétrique: Je conçois des chiffrements et des MACs pour la confidentialité et l'authentification, avec une focalisation sur la sécurité des objets connectés (comme dans Spook). Je conçois aussi des solutions de sécurité post-quantiques comme Saturnin (contre les attaquants ayant accès à un ordinateur quantique), et je monte des attaques et des cryptanalyses d'algorithmes cryptographiques. De plus, j'enseigne aux niveaux Licence et Master, en mathématiques et en informatique.
+      </p>
       <br>
+      <p>
       L'objectif de mes recherche est de concilier les avancées de la cryptographie symétrique et de la résistance aux attaques par canaux auxiliaires, afin de construire des solutions cryptographiques résistantes aux attaques classiques et aux attaques sur les implémentations, à un coût adapté à l'internet des objets.
       <br>
       Mes centres d'intérêts comprennent<br>
@@ -95,9 +106,10 @@ author_bio_fr: "Je suis actuellement en post-doctorat à <a href='http://www.uvs
         <li> l'implémentation de composants ou de primitives cryptographiques complètes (boîtes-S, matrices de diffusion, arithmétique dans les corps finis Booléens) en termes de circuits logiques et jusqu'à des implémentations  sur micro-contrôleurs,</li>
         <li>les contre-mesures aux attaques par canaux auxiliaires et attaques par fautes.</li>
       </ul>
-      <p lang='fr'>
       Mon sujet de recherche principal est la combinaison de tous ces domaines. 
+      </p>
       <br>
+      <p>
       J'ai enseigné pendant trois ans à Sorbonne Université, au campus Pierre-et-Marie-Curie, à des étudiants de licence d'informatique, puis pendant deux ans à des étudiants de master d'électricité à l'UCLouvain, et actuellement à des étudiants de licence d'informatique à l'Université de Versailles.
       </p>"
 
