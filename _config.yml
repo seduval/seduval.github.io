@@ -98,7 +98,7 @@ author_bio_fr: "Je suis actuellement en post-doctorat à <a href='http://www.uvs
 # Experiences
 author_work_experiences:
             - company_name: Université de Versailles
-              company_logo: logo-lmv-2020.jpeg
+              company_logo: logo-lmv-2020.png
               company_url: https://lmv.math.cnrs.fr/
               designation: Post-doctoral researcher
               designation_fr: Chercheur post-doctorant
@@ -106,7 +106,7 @@ author_work_experiences:
               description_fr: Conception de solution cryptographiques pour les objets connectés
               visibility: true
             - company_name: Université Catholique de Louvain
-              company_logo: logo_UCLouvain.jpeg
+              company_logo: logo_UCLouvain.png
               company_url: https://uclouvain.be/fr/index.html
               designation: Post-doctoral researcher
               designation_fr: Chercheur post-doctorant
@@ -114,7 +114,7 @@ author_work_experiences:
               description_fr: Conception de schémas de chiffrement authentifié & étude des stratégies d'évaluation des fuites
               visibility: true
             - company_name: Inria
-              company_logo: logo_inria.jpeg
+              company_logo: logo_inria.png
               company_url: https://www.inria.fr/en
               designation: PhD student
               designation_fr: Doctorant
@@ -124,7 +124,7 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: UPMC_Sorbonne_Universites.jpeg
+              - college_logo: UPMC_Sorbonne_Universites.png
                 college_name: UPMC - Sorbonne Universités
                 college_url: https://www.sorbonne-universite.fr/
                 college_degree: PhD in Cryptography
@@ -132,7 +132,7 @@ author_education_details:
                 description: Constructions for Lightweight Cryptography
                 description_fr: Constructions pour la cryptographie à bas coût
                 visibility: true
-              - college_logo: Logo_telecom.jpeg
+              - college_logo: Logo_telecom.png
                 college_name: Télécom ParisTech
                 college_url: https://www.telecom-paris.fr/
                 college_degree: Ingénieur of Télécom ParisTech
@@ -140,7 +140,7 @@ author_education_details:
                 description: Masters with majors in Cryptography & Operations Research
                 description_fr: majeures en Cryptographie & Recherche opérationnelle
                 visibility: true
-              - college_logo: logo_uvsq.jpeg
+              - college_logo: logo_uvsq.png
                 college_name: Université de Versailles
                 college_url: https://www.uvsq.fr/
                 college_degree: Bachelor in Mathematics & Bachelor in Computer Science
@@ -149,31 +149,31 @@ author_education_details:
 
 # Projects
 author_project_details:
-              - project_thumbnail: spook.jpeg
+              - project_thumbnail: spook.png
                 project_title: Spook
                 project_description: Sponge-Based Leakage-Resistant Authenticated Encryption
                 project_description_fr: Chiffrement authentifié résistant aux fuites basé sur les Éponges
                 project_url: https://www.spook.dev/
                 visibility: true
-              - project_thumbnail: saturnin.jpeg
+              - project_thumbnail: saturnin.png
                 project_title: Saturnin
                 project_description: A suite of lightweight symmetric algorithms for post-quantum security
                 project_description_fr: Une gamme d'algorithmes symétriques à bas coût pour la sécurité post-quantique
                 project_url: https://project.inria.fr/saturnin/
                 visibility: true
-              - project_thumbnail: reassure.jpeg
+              - project_thumbnail: reassure.png
                 project_title: Reassure
                 project_description: Robust and Efficient Approaches to Evaluating Side Channel and Fault Attack Resilience
                 project_description_fr: Approches robustes et efficaces pour l'évaluation de la résilience aux attaques par canaux auxiliaires et fautes
                 project_url: https://reassure.eu/
                 visibility: true
-              - project_thumbnail: anr-logo.jpeg
+              - project_thumbnail: anr-logo.png
                 project_title: ANR BLOC
                 project_description: Design ans analysis of block ciphers
                 project_description_fr: Conception et analyse de chiffrements par blocs
                 project_url: https://anr.fr/Project-ANR-11-INSE-0011
                 visibility: true
-              - project_thumbnail: anr-logo.jpeg
+              - project_thumbnail: anr-logo.png
                 project_title: ANR BRUTUS
                 project_description: Authenticated encryption resistant to side channel attacks – BRUTUS
                 project_description_fr: Chiffrements authentifiés et résistants aux attaques par canaux auxiliaires – BRUTUS
