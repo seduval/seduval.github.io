@@ -100,12 +100,14 @@ author_bio_fr: "<p lang='fr'>Je suis actuellement en post-doctorat à <a href='h
       L'objectif de mes recherche est de concilier les avancées de la cryptographie symétrique et de la résistance aux attaques par canaux auxiliaires, afin de construire des solutions cryptographiques résistantes aux attaques classiques et aux attaques sur les implémentations, à un coût adapté à l'internet des objets.
       <br>
       Mes centres d'intérêts comprennent<br>
+      </p>
       <ul lang='fr' type='circle'>
         <li>la conception d'algorithmes de cryptographie symétrique (chiffrements, MACs et chiffrements authentifiés),</li>
         <li>leur analyse statistique,</li>
         <li> l'implémentation de composants ou de primitives cryptographiques complètes (boîtes-S, matrices de diffusion, arithmétique dans les corps finis Booléens) en termes de circuits logiques et jusqu'à des implémentations  sur micro-contrôleurs,</li>
         <li>les contre-mesures aux attaques par canaux auxiliaires et attaques par fautes.</li>
       </ul>
+      <p lang='fr>
       Mon sujet de recherche principal est la combinaison de tous ces domaines. 
       </p>
       <br>
