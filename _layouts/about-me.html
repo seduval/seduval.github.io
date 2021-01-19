@@ -2,7 +2,7 @@
 layout: default
 ---
     <div class="jumbotron" style="text-align: center;">
-      <img class="author-profile-img" width="150px" height="150px" src="/assets/img/profile.jpeg"/>
+      <img class="author-profile-img" width="150px" height="150px" src="/assets/img/profile.jpeg" alt="Sébastien Duval"/>
       <p class="jumbotron-heading">{{- site.title -}}</p>
       <p lang='en' class="lead"> {{- site.subtitle -}} </p>
       <p lang='fr' class="lead"> {{- site.subtitle_fr -}} </p>
@@ -140,13 +140,6 @@ layout: default
         {%- include author_skills.html -%}
       </div>
 
-      {% if site.wakatime_username %}
-      <div class="card">
-        <h1>Coding Activity</h1>
-
-        {%- include coding_activity.html -%}
-      </div>
-      {% endif %}
     </div>
     <div class="col-lg-6">
       <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
@@ -177,6 +170,7 @@ layout: default
               <img
                 src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
                 class="project-img"
+                alt = "{{project.project_thumbnail}}"
               />
             </div>
             <div class="col center">
@@ -204,6 +198,7 @@ layout: default
               <img
                 src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
                 class="company-logo"
+                alt="{{exp.company_logo}}"
               />
             </div>
             <div class="col">
@@ -231,6 +226,7 @@ layout: default
               <img
                 src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
                 class="company-logo"
+                alt="{{detail.college_logo}}"
               />
             </div>
             <div class="col">

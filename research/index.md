@@ -4,6 +4,7 @@ title: Research
 menus: header
 usemathjax: true
 permalink: /research/
+summary: I, Sébastien Duval, am a researcher in the field of cryptography (member of the International Association for Cryptographic Research IACR). I publish in international journals and peer-reviewed conferences with program commitees, from generalist ones such as CRYPTO to specialist ones such as IACR Transactions on Symmetric Cryptology and IEEE-IT. The topics of my research are symmetric cryptography, side-channel analysis and evaluation, security standardisation and Internet-of-Things security. I also contribute to the peer-reviewing effort by being a reviewer in several program commitees of journals and conferences, and I discuss my research in seminars, conferences, talks and other venues.
 ---
 
 <script>

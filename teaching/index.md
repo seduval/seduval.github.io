@@ -2,6 +2,7 @@
 layout: default
 title: Teaching
 permalink: /teaching/
+summary: I, Sébastien Duval, teach at Bachelor and Masters degrees, in mathematics and computer science. I taught at Sorbonne Université / Université Pierre et Marie Curie in France, then at the Université Catholique de Louvain (UCLouvain) in Belgium, and I currently teach at the Université of Versailles in France.
 ---
 
 
