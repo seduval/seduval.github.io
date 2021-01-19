@@ -98,7 +98,7 @@ author_bio_fr: "Je suis actuellement en post-doctorat à <a href='http://www.uvs
 # Experiences
 author_work_experiences:
             - company_name: Université de Versailles
-              company_logo: logo-lmv-2020.png
+              company_logo: logo-lmv-2020.jpeg
               company_url: https://lmv.math.cnrs.fr/
               designation: Post-doctoral researcher
               designation_fr: Chercheur post-doctorant
@@ -106,7 +106,7 @@ author_work_experiences:
               description_fr: Conception de solution cryptographiques pour les objets connectés
               visibility: true
             - company_name: Université Catholique de Louvain
-              company_logo: logo_UCLouvain.png
+              company_logo: logo_UCLouvain.jpeg
               company_url: https://uclouvain.be/fr/index.html
               designation: Post-doctoral researcher
               designation_fr: Chercheur post-doctorant
@@ -132,7 +132,7 @@ author_education_details:
                 description: Constructions for Lightweight Cryptography
                 description_fr: Constructions pour la cryptographie à bas coût
                 visibility: true
-              - college_logo: Logo_telecom.png
+              - college_logo: Logo_telecom.jpeg
                 college_name: Télécom ParisTech
                 college_url: https://www.telecom-paris.fr/
                 college_degree: Ingénieur of Télécom ParisTech
