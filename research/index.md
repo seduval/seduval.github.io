@@ -54,8 +54,8 @@ summary: I, Sébastien Duval, am a researcher in the field of cryptography (memb
                                 <a href="{{- publi.dblp-link -}}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{- publi.url -}}" class="btn btn-dark btn-lg">@dblp</a>
                                 {%- endif -%}
                                 {%- if publi.video-link -%}
-                                <button lang='en' href="{{- publi.video-link -}}" rel="noopener noreferrer" target="_blank" class="btn btn-dark btn-lg">Video</button>
-                                <button lang='fr' href="{{- publi.video-link -}}" rel="noopener noreferrer" target="_blank" class="btn btn-dark btn-lg">Vidéo</button>
+                                <button lang='en' href="{{- publi.video-link -}}" rel="noopener noreferrer" data-disqus-identifier="{{- publi.url -}}" target="_blank" class="btn btn-dark btn-lg">Video</button>
+                                <button lang='fr' href="{{- publi.video-link -}}" rel="noopener noreferrer" data-disqus-identifier="{{- publi.url -}}" target="_blank" class="btn btn-dark btn-lg">Vidéo</button>
                                 {%- endif -%}
                             </p>
                             
