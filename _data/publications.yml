@@ -50,7 +50,8 @@ In this paper, we specify this suite of algorithms and argue about their securit
     usemathjax: true
     permalink: /research/saturnin/
     id: "saturnin"
-    video-link: "https://youtu.be/HlS4MZh_DAI"
+    #video-link: "https://youtu.be/HlS4MZh_DAI?t=824"
+    video-link: "https://www.youtube.com/watch?v=K52ELQXTil0&list=PLeeS-3Ml-rpoMnOmgkIJAvZj0zZ8sx6NL&index=66"
 
 -   title:  "Spook: Sponge-Based Leakage-Resistant Authenticated Encryption with a Masked Tweakable Block Cipher"
     summary: "This paper defines Spook: a sponge-based authenticated encryption with associated data algorithm. It is primarily designed to provide security against side-channel attacks at a low energy cost. For this purpose, Spook is mixing a leakageresistant mode of operation with bitslice ciphers enabling efficient and low latency implementations. The leakage-resistant mode of operation leverages a re-keying function to prevent differential side-channel analysis, a duplex sponge construction to efficiently process the data, and a tag verification based on a Tweakable Block Cipher (TBC) providing strong data integrity guarantees in the presence of leakages. The underlying bitslice ciphers are optimized for the masking countermeasures against side-channel attacks. Spook is an efficient single-pass algorithm. It ensures state-of-the-art black box security with several prominent features: (i) nonce misuse-resilience, (ii) beyond-birthday security with respect to the TBC block size, and (iii) multiuser security at minimum cost with a public tweak. Besides the specifications and design rationale, we provide first software and hardware implementation results of (unprotected) Spook which confirm the limited overheads that the use of two primitives sharing internal components imply. We also show that the integrity of Spook with leakage, so far analyzed with unbounded leakages for the duplex sponge and a strongly protected TBC modeled as leak-free, can be proven with a much weaker unpredictability assumption for the TBC. We finally discuss external cryptanalysis results and tweaks to improve both the security margins and efficiency of Spook."
@@ -66,7 +67,8 @@ In this paper, we specify this suite of algorithms and argue about their securit
     usemathjax: true
     permalink: /research/spook/
     id: "spook"
-    video-link: "https://youtu.be/h6bVEUPRMhs?t=810"
+    #video-link: "https://youtu.be/h6bVEUPRMhs?t=810"
+    video-link: "https://www.youtube.com/watch?v=igkb8xoeUBA&list=PLeeS-3Ml-rpoMnOmgkIJAvZj0zZ8sx6NL&index=50"
 
 -   title:  "Low AND Depth and Efficient Inverses: a Guide on S-boxes for Low-latency Masking"
     summary: "In this work, we perform an extensive investigation and construct a portfolio of S-boxes suitable for secure lightweight implementations, which aligns well with the ongoing NIST Lightweight Cryptography competition. In particular, we target good functional properties on the one hand and efficient implementations in terms of AND depth and AND gate complexity on the other. Moreover, we also consider the implementation of the inverse S-box and the possibility for it to share resources with the forward S-box. We take our exploration beyond the conventional small (and even) S-box sizes. Our investigation is twofold: (1) we note that implementations of existing S-boxes are not optimized for the criteria which define masking complexity (AND depth and AND gate complexity) and improve a tool published at FSE 2016 by Stoffelen in order to fill this gap. (2) We search for new S-box designs which take these implementation properties into account from the start. We perform a systematic search based on the properties of not only the S-box but also its inverse as well as an exploration of larger S-box sizes using length-doubling structures. The result of our investigation is not only a wide selection of very good S-boxes, but we also provide complete descriptions of their circuits, enabling their integration into future work."
@@ -82,7 +84,8 @@ In this paper, we specify this suite of algorithms and argue about their securit
     usemathjax: true
     permalink: /research/low-and-depth/
     id: "lowanddepth"
-    video-link: "https://youtu.be/fQ_uWC0CTiY?t=360"
+    #video-link: "https://youtu.be/fQ_uWC0CTiY?t=360"
+    video-link: "https://www.youtube.com/watch?v=V-5jbJhjj8w&list=PLeeS-3Ml-rpoMnOmgkIJAvZj0zZ8sx6NL&index=41"
 
 -   title:  "Lightweight MACs from Universal Hash Functions"
     summary: "Lightweight cryptography is a topic of growing importance, with the goal to secure the communication of low-end devices that are not powerful enough to use conventional cryptography. There have been many recent proposals of lightweight block ciphers, but comparatively few results on lightweight Message Authentication Codes (MACs).
