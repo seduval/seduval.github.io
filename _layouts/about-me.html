@@ -2,15 +2,15 @@
 layout: default
 ---
     <div class="jumbotron" style="text-align: center;">
-      <img class="author-profile-img" width="150px" height="150px" src="/assets/img/profile.jpeg" alt="Sébastien Duval"/>
-      <p class="jumbotron-heading">{{- site.title -}}</p>
-      <p lang='en' class="lead"> {{- site.subtitle -}} </p>
-      <p lang='fr' class="lead"> {{- site.subtitle_fr -}} </p>
+    <img class="author-profile-img" width="150px" height="150px" src="/assets/img/profile.jpeg" alt="Sébastien Duval"/>
+    <p class="jumbotron-heading">{{- site.title -}}</p>
+    <p lang='en' class="lead"> {{- site.subtitle -}} </p>
+    <p lang='fr' class="lead"> {{- site.subtitle_fr -}} </p>
     </div>
 <div class="container-fluid">
-  <div class="row ">
+<div class="row ">
     <div class="col-lg-5">
-      <div class="card" id="profile-card" style="text-align: left;">
+    <div class="card" id="profile-card" style="text-align: left;">
         <h1 lang='en' class="card-title" style="text-align: center;">About</h1>
         <h1 lang='fr' class="card-title" style="text-align: center;">Bio</h1>
         <p lang='en'>{{ site.author_bio }}</p>
@@ -19,102 +19,102 @@ layout: default
         endif -%}
 
         <p class="profile-links">
-          {%- if site.twitter_username -%}
-          <a
+        {%- if site.twitter_username -%}
+        <a
             class="social-link"
             href="http://twitter.com/{{ site.twitter_username }}"
-          >
+        >
             <i class="fab fa-twitter"></i>
-          </a>
-          {%- endif -%} {%- if site.facebook_username -%}
-          <a
+        </a>
+        {%- endif -%} {%- if site.facebook_username -%}
+        <a
             class="social-link"
             href="http://facebook.com/{{ site.facebook_username }}"
-          >
+        >
             <i class="fab fa-facebook-f"></i>
-          </a>
-          {%- endif -%} {%- if site.instagram_username -%}
-          <a
+        </a>
+        {%- endif -%} {%- if site.instagram_username -%}
+        <a
             class="social-link"
             href="http://instagram.com/{{ site.instagram_username }}"
-          >
+        >
             <i class="fab fa-instagram"></i>
-          </a>
-          {% endif %} {% if site.medium_username %}
-          <a
+        </a>
+        {% endif %} {% if site.medium_username %}
+        <a
             class="social-link"
             href="http://medium.com/@{{ site.medium_username }}"
-          >
+        >
             <i class="fab fa-medium-m"></i>
-          </a>
-          {% endif %} {% if site.github_username %}
-          <a
+        </a>
+        {% endif %} {% if site.github_username %}
+        <a
             class="social-link"
             href="http://github.com/{{ site.github_username }}"
-          >
+        >
             <i class="fab fa-github"></i>
-          </a>
-          {% endif %} {% if site.behance_username %}
-          <a
+        </a>
+        {% endif %} {% if site.behance_username %}
+        <a
             class="social-link"
             href="http://behance.net/{{ site.behance_username }}"
-          >
+        >
             <i class="fab fa-behance"></i>
-          </a>
-          {% endif %} {% if site.linkedin_username %}
-          <a
+        </a>
+        {% endif %} {% if site.linkedin_username %}
+        <a
             class="social-link"
             href="http://linkedin.com/in/{{ site.linkedin_username }}"
-          >
+        >
             <i class="fab fa-linkedin-in"></i>
-          </a>
-          {% endif %} {% if site.telegram_username %}
-          <a class="social-link" href="http://t.me/{{ site.telegram_username }}">
+        </a>
+        {% endif %} {% if site.telegram_username %}
+        <a class="social-link" href="http://t.me/{{ site.telegram_username }}">
             <i class="fab fa-telegram-plane"></i>
-          </a>
-          {% endif %} {% if site.dribbble_username %}
-          <a
+        </a>
+        {% endif %} {% if site.dribbble_username %}
+        <a
             class="social-link"
             href="https://dribbble.com/{{ site.dribbble_username }}"
-          >
+        >
             <i class="fab fa-dribbble"></i>
-          </a>
-          {% endif %} {% if site.flickr_username %}
-          <a
+        </a>
+        {% endif %} {% if site.flickr_username %}
+        <a
             class="social-link"
             href="https://www.flickr.com/photos/{{ site.flickr_username }}"
-          >
+        >
             <i class="fab fa-flickr"></i>
-          </a>
-          {% endif %} {% if site.dblp_username %}
-          <a
+        </a>
+        {% endif %} {% if site.dblp_username %}
+        <a
             class="social-link"
             href="https://dblp.org/pid/{{site.dblp_username}}"
-          >
+        >
             <img src="/assets/img/dblp.jpeg" alt="" style="height: 16px; width: 16px;"/>
-          </a>
-          {% endif %} {% if site.rg_username %}
-          <a
+        </a>
+        {% endif %} {% if site.rg_username %}
+        <a
             class="social-link"
             href="https://www.researchgate.net/profile/{{site.rg_username}}"
-          >
+        >
             <i class="fab fa-researchgate"></i>
-          </a>
-          {% endif %} {% if site.orcid %}
-          <a
+        </a>
+        {% endif %} {% if site.orcid %}
+        <a
             class="social-link"
             href="https://orcid.org/{{site.orcid}}"
-          >
+        >
             <img src="/assets/img/orcid.svg" alt="" style="height: 16px; width: 16px;"/>
-          </a>
-          {% endif %} {% if site.scholar_username %}
-          <a
+        </a>
+        {% endif %} {% if site.scholar_username %}
+        <a
             class="social-link"
             href="https://scholar.google.com/citations?user={{site.orcid}}&hl=en"
-          >
+        >
             <img src="/assets/img/scholar.png" alt="" style="height: 16px; width: 16px;"/>
-          </a>
-          {% endif %}
+        </a>
+        {% endif %}
         </p>
 
         {% if site.author_location %}
@@ -124,122 +124,123 @@ layout: default
         {% endif %} {% if site.author_website_url %}
         <h6><i class="fas fa-link"></i> {{ site.author_website_url }}</h6>
         {% endif %}
-      </div>
+    </div>
 
-      <!--{% if site.author_bio %}
-      <div class="card">
+    <!--{% if site.author_bio %}
+    <div class="card">
         <h1 class="card-title">About</h1>
         <p>{{ site.author_bio }}</p>
-      </div>
-      {% endif %}-->
+    </div>
+    {% endif %}-->
 
-      <div class="card">
+    <div class="card">
         <h1 lang='en'>Languages</h1>
         <h1 lang='fr'>Langues</h1>
         
         {%- include author_skills.html -%}
-      </div>
+    </div>
 
     </div>
     <div class="col-lg-6">
-      <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
-      <li class="nav-item">
-        <a lang='en' class="nav-link active" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects" aria-selected="true">Projects</a>
-        <a lang='fr' class="nav-link active" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects" aria-selected="true">Projets</a>
-      </li>
-      <!--<li class="nav-item">
-        <a lang='en' class="nav-link" id="pills-experiences-tab" data-toggle="pill" href="#pills-experiences" role="tab" aria-controls="pills-experiences" aria-selected="false">Experiences</a>
-        <a lang='fr' class="nav-link" id="pills-experiences-tab" data-toggle="pill" href="#pills-experiences" role="tab" aria-controls="pills-experiences" aria-selected="false">Expériences</a>
-      </li>-->
-      <li class="nav-item">
-        <a lang='en' class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education" role="tab" aria-controls="pills-education" aria-selected="false">Education</a>
-        <a lang='fr' class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education" role="tab" aria-controls="pills-education" aria-selected="false">Éducation</a>
-      </li>
+    <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+            <a lang='en' class="nav-link active" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects" aria-selected="true">Projects</a>
+            <a lang='fr' class="nav-link active" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects" aria-selected="true">Projets</a>
+        </li>
+        <li class="nav-item">
+            <a lang='en' class="nav-link" id="pills-experiences-tab" data-toggle="pill" href="#pills-experiences" role="tab" aria-controls="pills-experiences" aria-selected="false">Experiences</a>
+            <a lang='fr' class="nav-link" id="pills-experiences-tab" data-toggle="pill" href="#pills-experiences" role="tab" aria-controls="pills-experiences" aria-selected="false">Expériences</a>
+        </li>
+        <li class="nav-item">
+            <a lang='en' class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education" role="tab" aria-controls="pills-education" aria-selected="false">Education</a>
+            <a lang='fr' class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education" role="tab" aria-controls="pills-education" aria-selected="false">Éducation</a>
+        </li>
     </ul>
     <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade show active" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab">
+    <div class="tab-pane fade show active" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab">
         {%- if site.show_author_project_details == true -%}
         <div id="author_projects" class="card">
-          <h1 lang='en' class="card-title">Projects</h1>
-          <h1 lang='fr' class="card-title">Projets</h1>
-          <br />
-          {%- for project in site.author_project_details -%} {%- if project.visibility
-          == true -%}
-          <div class="row" id="project-card">
+        <h1 lang='en' class="card-title">Projects</h1>
+        <h1 lang='fr' class="card-title">Projets</h1>
+        <br />
+        {%- for project in site.author_project_details -%} {%- if project.visibility
+        == true -%}
+        <div class="row" id="project-card">
             <div class="col">
-              <img
+            <img
                 src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
                 class="project-img"
                 alt = "{{project.project_thumbnail}}"
-              />
+            />
             </div>
             <div class="col center">
-              <h4 class="experience-title"><a class="project-link" href="{{project.project_url}}" title="{{ project.project_title }}">{{- project.project_title -}}</a></h4>
-              <h6 class="experience-info">{{- project.project_info -}}</h6>
-              <p lang='en' class="experience-desc">{{- project.project_description -}}</p>
-              <p lang='fr' class="experience-desc">{{- project.project_description_fr -}}</p>
+            <h4 class="experience-title"><a class="project-link" href="{{project.project_url}}" title="{{ project.project_title }}">{{- project.project_title -}}</a></h4>
+            <h6 class="experience-info">{{- project.project_info -}}</h6>
+            <p lang='en' class="experience-desc">{{- project.project_description -}}</p>
+            <p lang='fr' class="experience-desc">{{- project.project_description_fr -}}</p>
             </div>
-          </div>
-          <br />
-          {%- endif -%} {%- endfor -%}
+        </div>
+        <br />
+        {%- endif -%} {%- endfor -%}
         </div>
         {%- endif -%} 
-      </div>
-     <!-- <div class="tab-pane fade" id="pills-experiences" role="tabpanel" aria-labelledby="pills-experiences-tab">
+    </div>
+    <div class="tab-pane fade" id="pills-experiences" role="tabpanel" aria-labelledby="pills-experiences-tab">
         {%- if site.show_author_work_experiences == true -%}
         <div class="card">
-          <h1 lang='en' class="card-title">Work Experience</h1>
-          <h1 lang='fr' class="card-title">Expériences professionnelles</h1>
-          <br />
-          {%- for exp in site.author_work_experiences -%} {%- if exp.visibility == true
-          -%}
-          <div class="row">
+        <h1 lang='en' class="card-title">Work Experience</h1>
+        <h1 lang='fr' class="card-title">Expériences professionnelles</h1>
+        <br />
+        {%- for exp in site.author_work_experiences -%} {%- if exp.visibility == true
+        -%}
+        <div class="row">
             <div class="col">
-              <img
+            <img
                 src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
                 class="company-logo"
                 alt="{{exp.company_logo}}"
-              />
+            />
             </div>
             <div class="col">
-              <h4 lang='en' class="experience-title"><a href="{{exp.company_url}}">{{- exp.designation -}}</a></h4>
-              <h4 lang='fr' class="experience-title"><a href="{{exp.company_url}}">{{- exp.designation_fr -}}</a></h4>
-              <h6 class="experience-info">{{- exp.company_name -}}</h6>
-              <p lang='en' class="experience-desc">{{- exp.description -}}</p>
-              <p lang='fr' class="experience-desc">{{- exp.description_fr -}}</p>
+            <h4 lang='en' class="experience-title"><a href="{{exp.company_url}}">{{- exp.designation -}}</a></h4>
+            <h4 lang='fr' class="experience-title"><a href="{{exp.company_url}}">{{- exp.designation_fr -}}</a></h4>
+            <h6 class="experience-info">{{- exp.company_name -}}</h6>
+            <p lang='en' class="experience-desc">{{- exp.description -}}</p>
+            <p lang='fr' class="experience-desc">{{- exp.description_fr -}}</p>
             </div>
-          </div>
-          {%- endif -%} {%- endfor -%}
+        </div>
+        {%- endif -%} {%- endfor -%}
         </div>
         {%- endif -%}
-      </div>-->
-      <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+    </div>
+    <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
         {%- if site.show_author_education_details == true -%}
         <div class="card">
-          <h1 lang='en' class="card-title">Education</h1>
-          <h1 lang='fr' class="card-title">Éducation</h1>
-          <br />
-          {%- for detail in site.author_education_details -%} {%- if detail.visibility
-          == true -%}
-          <div class="row">
+        <h1 lang='en' class="card-title">Education</h1>
+        <h1 lang='fr' class="card-title">Éducation</h1>
+        <br />
+        {%- for detail in site.author_education_details -%} {%- if detail.visibility
+        == true -%}
+        <div class="row">
             <div class="col">
-              <img
+            <img
                 src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
                 class="company-logo"
                 alt="{{detail.college_logo}}"
-              />
+            />
             </div>
             <div class="col">
-              <h4 lang='en' class="experience-title"><a href="{{detail.college_url}}">{{- detail.college_degree -}}</a></h4>
-              <h4 lang='fr' class="experience-title"><a href="{{detail.college_url}}">{{- detail.college_degree_fr -}}</a></h4>
-              <h6 class="experience-info">{{- detail.college_name -}}</h6>
-              <p lang='en' class="experience-desc">{{- detail.description -}}</p>
-              <p lang='fr' class="experience-desc">{{- detail.description_fr -}}</p>
+            <h4 lang='en' class="experience-title"><a href="{{detail.college_url}}">{{- detail.college_degree -}}</a></h4>
+            <h4 lang='fr' class="experience-title"><a href="{{detail.college_url}}">{{- detail.college_degree_fr -}}</a></h4>
+            <h6 class="experience-info">{{- detail.college_name -}}</h6>
+            <p lang='en' class="experience-desc">{{- detail.description -}}</p>
+            <p lang='fr' class="experience-desc">{{- detail.description_fr -}}</p>
             </div>
-          </div>
-          {%- endif -%} {%- endfor -%}
+        </div>
+        {%- endif -%} {%- endfor -%}
         </div>
         {%- endif -%}
-      </div>
-  </div>
+    </div>
+    </div>
+</div>
 </div>
