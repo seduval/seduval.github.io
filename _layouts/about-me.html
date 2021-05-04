@@ -194,28 +194,7 @@ layout: default
 					{%- endif -%}
 				</div>
 				<div class="tab-pane fade" id="pills-education">
-					{%- if site.show_author_education_details == true -%}
-					<div class="card">
-						<h1 lang='en' class="card-title">Education</h1>
-						<h1 lang='fr' class="card-title">Éducation</h1>
-						<br />
-						{%- for detail in site.author_education_details -%} {%- if detail.visibility
-						== true -%}
-						<div class="row">
-							<div class="col">
-								<img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}" class="company-logo" alt="{{detail.college_logo}}"/>
-							</div>
-							<div class="col">
-								<h4 lang='en' class="experience-title"><a href="{{detail.college_url}}">{{- detail.college_degree -}}</a></h4>
-								<h4 lang='fr' class="experience-title"><a href="{{detail.college_url}}">{{- detail.college_degree_fr -}}</a></h4>
-								<h6 class="experience-info">{{- detail.college_name -}}</h6>
-								<p lang='en' class="experience-desc">{{- detail.description -}}</p>
-								<p lang='fr' class="experience-desc">{{- detail.description_fr -}}</p>
-							</div>
-						</div>
-						{%- endif -%} {%- endfor -%}
-					</div>
-					{%- endif -%}
+					
 				</div>
 			</div>
 		</div>
