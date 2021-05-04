@@ -132,20 +132,20 @@ layout: default
 		<div class="col-lg-6">
 			<ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
 				<li class="nav-item">
-					<a lang='en' class="nav-link active" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects" aria-selected="true">Projects</a>
-					<a lang='fr' class="nav-link active" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects" aria-selected="true">Projets</a>
+					<a lang='en' class="nav-link active" id="pills-projects-tab" data-toggle="pill" href="#pills-projects">Projects</a>
+					<a lang='fr' class="nav-link active" id="pills-projects-tab" data-toggle="pill" href="#pills-projects">Projets</a>
 				</li>
 				<li class="nav-item">
-					<a lang='en' class="nav-link" id="pills-experiences-tab" data-toggle="pill" href="#pills-experiences" role="tab" aria-controls="pills-experiences" aria-selected="false">Experiences</a>
-					<a lang='fr' class="nav-link" id="pills-experiences-tab" data-toggle="pill" href="#pills-experiences" role="tab" aria-controls="pills-experiences" aria-selected="false">Expériences</a>
+					<a lang='en' class="nav-link" id="pills-experiences-tab" data-toggle="pill" href="#pills-experiences">Experiences</a>
+					<a lang='fr' class="nav-link" id="pills-experiences-tab" data-toggle="pill" href="#pills-experiences">Expériences</a>
 				</li>
 				<li class="nav-item">
-					<a lang='en' class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education" role="tab" aria-controls="pills-education" aria-selected="false">Education</a>
-					<a lang='fr' class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education" role="tab" aria-controls="pills-education" aria-selected="false">Éducation</a>
+					<a lang='en' class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education">Education</a>
+					<a lang='fr' class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education">Éducation</a>
 				</li>
 			</ul>
 			<div class="tab-content" id="pills-tabContent">
-				<div class="tab-pane fade in active" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab">
+				<div class="tab-pane fade in active show" id="pills-projects">
 					{%- if site.show_author_project_details == true -%}
 					<div id="author_projects" class="card">
 						<h1 lang='en' class="card-title">Projects</h1>
@@ -169,7 +169,7 @@ layout: default
 					</div>
 					{%- endif -%} 
 				</div>
-				<div class="tab-pane fade" id="pills-experiences" role="tabpanel" aria-labelledby="pills-experiences-tab">
+				<div class="tab-pane fade" id="pills-experiences">
 					{%- if site.show_author_work_experiences == true -%}
 					<div class="card">
 						<h1 lang='en' class="card-title">Work Experience</h1>
@@ -193,7 +193,7 @@ layout: default
 					</div>
 					{%- endif -%}
 				</div>
-				<div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+				<div class="tab-pane fade" id="pills-education">
 					{%- if site.show_author_education_details == true -%}
 					<div class="card">
 						<h1 lang='en' class="card-title">Education</h1>
