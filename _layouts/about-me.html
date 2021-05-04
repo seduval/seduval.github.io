@@ -143,82 +143,8 @@ layout: default
 					<a lang='en' class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education">Education</a>
 					<a lang='fr' class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education">Éducation</a>
 				</li>
-			</ul>
-			<div class="tab-content" id="pills-tabContent">
-				<div class="tab-pane fade in active show" id="pills-projects">
-					{%- if site.show_author_project_details == true -%}
-					<div id="author_projects" class="card">
-						<h1 lang='en' class="card-title">Projects</h1>
-						<h1 lang='fr' class="card-title">Projets</h1>
-						<br />
-						{%- for project in site.author_project_details -%} {%- if project.visibility
-						== true -%}
-						<div class="row" id="project-card">
-							<div class="col">
-								<img src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}" class="project-img" alt = "{{project.project_thumbnail}}"/>
-							</div>
-							<div class="col center">
-								<h4 class="experience-title"><a class="project-link" href="{{project.project_url}}" title="{{ project.project_title }}">{{- project.project_title -}}</a></h4>
-								<h6 class="experience-info">{{- project.project_info -}}</h6>
-								<p lang='en' class="experience-desc">{{- project.project_description -}}</p>
-								<p lang='fr' class="experience-desc">{{- project.project_description_fr -}}</p>
-							</div>
-						</div>
-						<br />
-						{%- endif -%} {%- endfor -%}
-					</div>
-					{%- endif -%} 
-				</div>
-				<div class="tab-pane fade" id="pills-experiences">
-					{%- if site.show_author_work_experiences == true -%}
-					<div class="card">
-						<h1 lang='en' class="card-title">Work Experience</h1>
-						<h1 lang='fr' class="card-title">Expériences professionnelles</h1>
-						<br />
-						{%- for exp in site.author_work_experiences -%} {%- if exp.visibility == true
-						-%}
-						<div class="row">
-							<div class="col">
-								<img src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}" class="company-logo" alt="{{exp.company_logo}}"/>
-							</div>
-							<div class="col">
-								<h4 lang='en' class="experience-title"><a href="{{exp.company_url}}">{{- exp.designation -}}</a></h4>
-								<h4 lang='fr' class="experience-title"><a href="{{exp.company_url}}">{{- exp.designation_fr -}}</a></h4>
-								<h6 class="experience-info">{{- exp.company_name -}}</h6>
-								<p lang='en' class="experience-desc">{{- exp.description -}}</p>
-								<p lang='fr' class="experience-desc">{{- exp.description_fr -}}</p>
-							</div>
-						</div>
-						{%- endif -%} {%- endfor -%}
-					</div>
-					{%- endif -%}
-				</div>
-				<div class="tab-pane fade" id="pills-education">
-					{%- if site.show_author_education_details == true -%}
-					<div class="card">
-						<h1 lang='en' class="card-title">Education</h1>
-						<h1 lang='fr' class="card-title">Éducation</h1>
-						<br />
-						{%- for detail in site.author_education_details -%} {%- if detail.visibility
-						== true -%}
-						<div class="row">
-							<div class="col">
-								<img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}" class="company-logo" alt="{{detail.college_logo}}"/>
-							</div>
-							<div class="col">
-								<h4 lang='en' class="experience-title"><a href="{{detail.college_url}}">{{- detail.college_degree -}}</a></h4>
-								<h4 lang='fr' class="experience-title"><a href="{{detail.college_url}}">{{- detail.college_degree_fr -}}</a></h4>
-								<h6 class="experience-info">{{- detail.college_name -}}</h6>
-								<p lang='en' class="experience-desc">{{- detail.description -}}</p>
-								<p lang='fr' class="experience-desc">{{- detail.description_fr -}}</p>
-							</div>
-						</div>
-						{%- endif -%} {%- endfor -%}
-					</div>
-					{%- endif -%}
-				</div>
-			</div>-->
-			<ul class="nav nav-pills">
+			</ul> -->
+			<ul class="nav nav-pills mb-3" id="pills-tab">
             <li class="active"><a data-toggle="pill" href="#pills-projects">Home</a></li>
             <li><a data-toggle="pill" href="#pills-experiences">Menu 1</a></li>
             <li><a data-toggle="pill" href="#pills-education">Menu 2</a></li>
@@ -298,20 +224,6 @@ layout: default
 					{%- endif -%}
 				</div>
 			</div>-->
-            <!--<div class="tab-content">
-            <div id="home" class="tab-pane fade in active">
-                <h3>HOME</h3>
-                <p>Some content.</p>
-            </div>
-            <div id="menu1" class="tab-pane fade">
-                <h3>Menu 1</h3>
-                <p>Some content in menu 1.</p>
-            </div>
-            <div id="menu2" class="tab-pane fade">
-                <h3>Menu 2</h3>
-                <p>Some content in menu 2.</p>
-            </div>
-            </div>-->
 		</div>
 	</div>
 </div>
