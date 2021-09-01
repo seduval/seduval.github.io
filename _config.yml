@@ -1,17 +1,23 @@
 title: Sébastien Duval
-subtitle: Doctor in Cryptography
-subtitle_fr: Docteur en Cryptographie
-description: "I am currently a post-doctoral researcher in France at the University of Versailles in the Crypto team. I previously worked at UCLouvain in Belgium in the Crypto group. I obtained my PhD from Sorbonne University in 2018, which I undertook at Inria as part of project-team SECRET under the supervision of Anne CANTEAUT and Gaëtan LEURENT.
+subtitle: Associate Professor
+subtitle_fr: Maître de Conférences
+description: "
+I am an Associate Professor at University of Lorraine in team CARAMBA of LORIA. I previously worked in France at the University of Versailles in the Crypto team and at UCLouvain in Belgium in the Crypto group. I obtained my PhD from Sorbonne University in 2018, which I undertook at Inria as part of project-team SECRET under the supervision of Anne CANTEAUT and Gaëtan LEURENT.
 
 My work is about symmetric-key cryptology: I design ciphers and MACs for encryption and authentication, with a special focus on the security of the Internet of Things (like in Spook). I also design security solutions for post-quantum cryptography like Saturnin (for when the attacker has access to a quantum computer), and perform attacks and cryptanalysis of cryptographic algorithms. Additionnally, I teach at Bachelor and Masters levels, in mathematics and computer science.
 
 The goal of my research is to merge the advances of symmetric-key cryptography and of side-channel attacks resistance, in order to build cryptographic solutions resisting both classical attacks and attacks on the implementations, with a cost fit for the Internet of Things. 
-My interests include (1) the design of symmetric-key algorithms (ciphers, MACs and authenticated encryption schemes), (2) their statistical analysis, (3) the implementation of components or full cryptographic primitives (S-boxes, diffusion matrices, arithmetic over Boolean finite fields) in terms of logic circuits and onto implementations on micro-controllers and (4) counter-measures against side-channel and fault attacks. My main research subject is the combination of all these fields. 
-I taught for three years at Sorbonne University, in campus Pierre-et-Marie-Curie, for bachelor students in computer science, then I taught master students in electricity at UCLouvain for two years, and I currently teach bachelor students in computer science at University of Versailles.
+My interests include (1) the design of symmetric-key algorithms (ciphers, MACs and authenticated encryption schemes), (2) their statistical analysis, (3) the implementation of components or full cryptographic primitives (S-boxes, diffusion matrices, arithmetic over Boolean finite fields) in terms of logic circuits and onto implementations on micro-controllers and (4) counter-measures against side-channel and fault attacks. My main research subject is the combination of all these fields.
 
-Je suis actuellement en post-doctorat à l'Université de Versailles dans l'équipe Crypto. Je travaillais précédemment à l'UCLouvain en Belgique dans l'équipe Crypto. J'ai obtenu mon doctorat de Sorbonne Université en 2018, effectué à Inria au sein de l'équipe-projet SECRET sous la supervision d' Anne CANTEAUT et de Gaëtan LEURENT. 
+I teach computer science at bachelors and masters levels, which a focus on information systems security.
+I taught for three years at Sorbonne University, in campus Pierre-et-Marie-Curie, for bachelor students in computer science, then I taught master students in electricity at UCLouvain for two years, then bachelor students in computer science at University of Versailles.
 
-Mon travail concerne la cryptologie symétrique: Je conçois des chiffrements et des MACs pour la confidentialité et l'authentification, avec une focalisation sur la sécurité des objets connectés (comme dans Spook). Je conçois aussi des solutions de sécurité post-quantiques comme Saturnin (contre les attaquants ayant accès à un ordinateur quantique), et je monte des attaques et des cryptanalyses d'algorithmes cryptographiques. De plus, j'enseigne aux niveaux Licence et Master, en mathématiques et en informatique.
+Je suis Maître de Conférences à l'Université de Lorraine dans l'équipe CARAMBA du LORIA . J'ai travaillé précédemment à l'Université de Versailles dans l'équipe Crypto et à l'UCLouvain en Belgique dans le groupe Crypto. J'ai obtenu mon doctorat de Sorbonne Université en 2018, effectué à Inria au sein de l'équipe-projet SECRET sous la supervision d' Anne CANTEAUT et de Gaëtan LEURENT. 
+
+Mon travail concerne la cryptologie symétrique: Je conçois des chiffrements et des MACs pour la confidentialité et l'authentification, avec une focalisation sur la sécurité des objets connectés (comme dans Spook). Je conçois aussi des solutions de sécurité post-quantiques comme Saturnin (contre les attaquants ayant accès à un ordinateur quantique), et je monte des attaques et des cryptanalyses d'algorithmes cryptographiques.
+
+J'enseigne l'informatique aux niveaux licence et master, avec une spécialisation dans la sécurité des systèmes d'information.
+J'ai enseigné pendant trois ans à Sorbonne Université, au campus Pierre-et-Marie-Curie, à des étudiants de licence, puis j'ai enseigné à des étudiants en master d'éléctricité à l'UCLouvain pendant deux ans, puis à des étudiants de licence en informatique à l'université de Versailles.
 
 L'objectif de mes recherche est de concilier les avancées de la cryptographie symétrique et de la résistance aux attaques par canaux auxiliaires, afin de construire des solutions cryptographiques résistantes aux attaques classiques et aux attaques sur les implémentations, à un coût adapté à l'internet des objets. 
 Mes centres d'intérêts comprennent
@@ -21,9 +27,9 @@ l'implémentation de composants ou de primitives cryptographiques complètes (bo
 les contre-mesures aux attaques par canaux auxiliaires et attaques par fautes.
 Mon sujet de recherche principal est la combinaison de tous ces domaines. 
 J'ai enseigné pendant trois ans à Sorbonne Université, au campus Pierre-et-Marie-Curie, à des étudiants de licence d'informatique, puis pendant deux ans à des étudiants de master d'électricité à l'UCLouvain, et actuellement à des étudiants de licence d'informatique à l'Université de Versailles."
-typewrite-text: Doctor in Cryptography
+typewrite-text: Associate Professor
 logo: avatar.jpeg
-keywords: "Sébastien Duval, PhD, official webpage, cryptography, research, teaching, encryption, authentication, side-channel attacks, lightweight cryptography, Internet of Things, security, University of Versailles"
+keywords: "Sébastien Duval, PhD, official webpage, cryptography, research, teaching, LORIA, CARAMBA, encryption, authentication, side-channel attacks, lightweight cryptography, Internet of Things, security, University of Lorraine"
   
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
@@ -44,10 +50,15 @@ urls:
 
 author_logo: avatar.jpeg
 author: Sébastien Duval
-author_bio: "<p lang='en'>I am currently a post-doctoral researcher in France at the <a href='http://www.uvsq.fr/welcome-to-uvsq-406434.kjsp?RH=VF&RF=EN' target='_blank'>University of Versailles</a>
-      in the
-      <a href='https://lmv.math.cnrs.fr/en/teams/cryptology-and-information-security-crypto/' target='_blank'>Crypto team</a>.
+author_bio: "<p lang='en'>I am an Associate Professor in France at University of LorraineI am currently a post-doctoral researcher in France at
+      <a href='https://www.univ-lorraine.fr/en/home/' target='_blank'>University of Lorraine</a>
+      in the team
+      <a href='https://www.inria.fr/en/caramba' target='_blank'>CARAMBA</a>.
       I previously worked at 
+      <a href='http://www.uvsq.fr/welcome-to-uvsq-406434.kjsp?RH=VF&RF=EN' target='_blank'>University of Versailles</a>
+      in the
+      <a href='https://lmv.math.cnrs.fr/en/teams/cryptology-and-information-security-crypto/' target='_blank'>Crypto team</a>
+      and at
       <a href='https://uclouvain.be/en/index.html' target='_blank'>UCLouvain</a>
       in Belgium in the 
       <a href='https://www-crypto.elen.ucl.ac.be/crypto/default/home' target='_blank'>Crypto group</a>.
@@ -73,12 +84,19 @@ author_bio: "<p lang='en'>I am currently a post-doctoral researcher in France at
       </p>
       <br>
       <p lang='en'>
-      I taught for three years at Sorbonne University, in campus Pierre-et-Marie-Curie, for bachelor students in computer science, then I taught master students in electricity at UCLouvain for two years, and I currently teach bachelor students in computer science at University of Versailles.
+      
+      I teach computer science at bachelors and masters levels, with a specialisation on information systems security.
+      I taught for three years at Sorbonne University, in campus Pierre-et-Marie-Curie, for bachelor students in computer science, then I taught master students in electricity at UCLouvain for two years, and then bachelor students in computer science at University of Versailles.
       </p>"
-author_bio_fr: "<p lang='fr'>Je suis actuellement en post-doctorat à <a href='http://www.uvsq.fr/' target='_blank'>l'Université de Versailles</a>
+author_bio_fr: "<p lang='fr'>Je suis Maître de Conférences à
+      <a href='https://www.univ-lorraine.fr/' target='_blank'>l'Université de Lorraine</a>
       dans l'équipe
-      <a href='https://lmv.math.cnrs.fr/equipes/cryptologie/' target='_blank'>Crypto</a>.
-      Je travaillais précédemment à 
+      <a href='https://www.inria.fr/fr/caramba' target='_blank'>CARAMBA</a>.
+      J'ai travaillé précédemment à 
+      <a href='http://www.uvsq.fr/' target='_blank'>l'Université de Versailles</a>
+      dans l'équipe
+      <a href='https://lmv.math.cnrs.fr/equipes/cryptologie/' target='_blank'>Crypto</a>
+      et à
       <a href='https://www.uclouvain.be/' target='_blank'>l'UCLouvain</a>
       en Belgique dans l'équipe 
       <a href='https://www-crypto.elen.ucl.ac.be/crypto/default/home' target='_blank'>Crypto</a>.
@@ -113,11 +131,20 @@ author_bio_fr: "<p lang='fr'>Je suis actuellement en post-doctorat à <a href='h
       </p>
       <br>
       <p lang='fr'>
-      J'ai enseigné pendant trois ans à Sorbonne Université, au campus Pierre-et-Marie-Curie, à des étudiants de licence d'informatique, puis pendant deux ans à des étudiants de master d'électricité à l'UCLouvain, et actuellement à des étudiants de licence d'informatique à l'Université de Versailles.
+      J'enseigne l'informatique aux niveaux licence et master, avec une spécialisation en sécurité des systèmes d'information.
+      J'ai enseigné pendant trois ans à Sorbonne Université, au campus Pierre-et-Marie-Curie, à des étudiants de licence d'informatique, puis pendant deux ans à des étudiants de master d'électricité à l'UCLouvain, puis à des étudiants de licence d'informatique à l'Université de Versailles.
       </p>"
 
 # Experiences
 author_work_experiences:
+            - company_name: Université de Lorraine
+              company_logo: logo_ul.png
+              company_url: https://www.univ-lorraine.fr/
+              designation: Associate Professor
+              designation_fr: Maître de Conférences
+              description: Designing cryptographic solutions for the IoT and teaching computer science
+              description_fr: Conception de solution cryptographiques pour les objets connectés et enseignement de l'informatique
+              visibility: true
             - company_name: Université de Versailles
               company_logo: logo-lmv-2020.jpeg
               company_url: https://lmv.math.cnrs.fr/
