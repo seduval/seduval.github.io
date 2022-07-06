@@ -1,3 +1,67 @@
+- year: 2021-
+  university: Université de Lorraine
+  level: 2nd year Masters
+  level_fr: M2
+  description: "Security of Information Systems"
+  description_fr: "Sécurité des Systèmes d'Information"
+  url: https://arche.univ-lorraine.fr/course/view.php?id=6623
+  
+- year: 2021-
+  university: Université de Lorraine
+  level: 2nd year Masters
+  level_fr: M2
+  description: "Security of Web Applications"
+  description_fr: "Sécurité des Applications Web"
+  url: https://arche.univ-lorraine.fr/course/view.php?id=29876
+
+- year: 2021-
+  university: Université de Lorraine
+  level: 1st year Masters
+  level_fr: M1
+  description: "Introduction to Cryptography"
+  description_fr: "Introduction à la Cryptographie"
+  url: https://arche.univ-lorraine.fr/course/view.php?id=8970
+  
+- year: 2021-
+  university: Université de Lorraine
+  level: 1st year Masters
+  level_fr: M1
+  description: "Analysis and Design of Software"
+  description_fr: "Analyse et Conception de Logiciels"
+  url: https://arche.univ-lorraine.fr/course/view.php?id=312
+  
+- year: 2021-
+  university: Université de Lorraine
+  level: 3rd year Bachelors
+  level_fr: L3
+  description: "Introduction to Security and Cryptography"
+  description_fr: "Introduction à la Sécurité et à la Cryptographie"
+  url: https://arche.univ-lorraine.fr/course/view.php?id=9091
+  
+- year: 2021-
+  university: Université de Lorraine
+  level: 2nd year Bachelors
+  level_fr: L2
+  description: "Algorithmics and Programming (3)"
+  description_fr: "Algorithmique et Programmation (3)"
+  url: https://arche.univ-lorraine.fr/course/view.php?id=5687
+  
+- year: 2021-
+  university: Université de Lorraine
+  level: 2nd year Bachelors
+  level_fr: L2
+  description: "Discrete Mathematics (2)"
+  description_fr: "Mathématiques Discrètes (2)"
+  url: https://arche.univ-lorraine.fr/enrol/index.php?id=20418
+  
+- year: 2021-
+  university: Université de Lorraine
+  level: 1st year Bachelors
+  level_fr: L1
+  description: "Algorithmics and Programming (2)"
+  description_fr: "Algorithmique et Programmation (2)"
+  url: https://arche.univ-lorraine.fr/course/view.php?id=31603
+  
 - year: 2020
   university: Université de Versailles
   level: 2nd year
