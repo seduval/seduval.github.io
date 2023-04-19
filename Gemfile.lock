@@ -102,6 +102,7 @@ GEM
     unicode-display_width (1.7.0)
     wdm (0.1.1)
     webrick (1.7.0)
+    jquery (>= 3.5.0)
 
 PLATFORMS
   ruby
