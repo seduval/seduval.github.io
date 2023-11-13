@@ -24,14 +24,6 @@
   
 - year: 2021-
   university: Université de Lorraine
-  level: 1st year Masters
-  level_fr: M1
-  description: "Analysis and Design of Software"
-  description_fr: "Analyse et Conception de Logiciels"
-  url: https://arche.univ-lorraine.fr/course/view.php?id=312
-  
-- year: 2021-
-  university: Université de Lorraine
   level: 3rd year Bachelors
   level_fr: L3
   description: "Introduction to Security and Cryptography"
@@ -62,6 +54,21 @@
   description_fr: "Algorithmique et Programmation (2)"
   url: https://arche.univ-lorraine.fr/course/view.php?id=31603
   
+- year: 2023-
+  university: Polytech, Université de Lorraine
+  level: 2nd year Masters
+  level_fr: 5A ingénieur
+  description: "Supervisor for last-year project"
+  description_fr: "Supervision des projets de 5A"
+
+- year: 2021-2023
+  university: Université de Lorraine
+  level: 1st year Masters
+  level_fr: M1
+  description: "Analysis and Design of Software"
+  description_fr: "Analyse et Conception de Logiciels"
+  url: https://arche.univ-lorraine.fr/course/view.php?id=312
+
 - year: 2020
   university: Université de Versailles
   level: 2nd year

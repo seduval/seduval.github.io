@@ -197,6 +197,12 @@ author_education_details:
 
 # Projects
 author_project_details:
+              - project_thumbnail: che.png
+                project_title: Cyber Humanum Est
+                project_description: A 3-day + 1 night simulation of a cybersecurity wargame for about 100 students, including attack, defense and influence, on all types of infrastructures from network and systems, electronics and physics
+                project_description_fr: Une simulation de cyber-guerre de 3 jours et une nuit pour environs 100 étudiants, incluant attaque, défense et lutte d'influence, à la fois sur des infrastructures informatiques, électroniques et physiques
+                project_url: https://fr.cyberhumanumest.com/
+                visibility: true
               - project_thumbnail: spook.png
                 project_title: Spook
                 project_description: Sponge-Based Leakage-Resistant Authenticated Encryption

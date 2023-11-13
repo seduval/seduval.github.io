@@ -1,7 +1,7 @@
 - name: "Journals"
   name_fr: "Journaux"
-  content: "Information Processing Letters 2018-2019, Information Sciences 2019, Journal of Cryptology 2019, Information Processing Letters 2020, Cryptography and Communications 2020, Computer Journal 2020, Designs, Codes and Cryptography 2020-2021, IEEE Transactions on Information Theory 2020-2021, IACR Transactions on Symmetric Cryptology 2020-2021"
+  content: "Information Processing Letters 2018-2019, Information Sciences 2019, Journal of Cryptology 2019, Information Processing Letters 2020, Cryptography and Communications 2020, Computer Journal 2020, Designs, Codes and Cryptography 2020-2021-2022-2023, IEEE Transactions on Information Theory 2020-2021, IACR Transactions on Symmetric Cryptology 2020-2021, Advances in Mathematics and Communications 2021, Journal of Applied Sciences 2021, IACR Transactions on Cryptographic Hardware and Embedded Systems 2022"
 
 - name: "Conferences with program commitee"
   name_fr: "Conférences avec comité de programme"
-  content: "SAC 2016, CRYPTO 2017, Latincrypt 2017, SAC 2018, Asiacrypt 2018-2019-2020, Eurocrypt 2019-2020"
+  content: "SAC 2016, CRYPTO 2017-2022, Latincrypt 2017, SAC 2018, Asiacrypt 2018-2019-2020, Eurocrypt 2019-2020-2022, Africacrypt 2022"
