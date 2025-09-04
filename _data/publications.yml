@@ -1,4 +1,57 @@
-
+-   title:  "A New Tool to Find Lightweight (And, Xor) Implementations of Quadratic Vectorial Boolean Functions up to Dimension 9"
+    summary: "Efficient tool to implement quadratic cryptographic functions on up to 9-10 bits. Outputs bit-sliced circuit descriptions. Tool is provided."
+    author: Sébastien Duval
+    co-authors: Marie Bolzer, Sébastien Duval, Marine Minier
+    date: '2025-09-04'
+    category: Journal article 
+    venue:  IEEE Transactions on Circuits and Systems
+    keywords: Cryptography, Synthesiser, Tool, Implementation, Quadratic Functions, S-box
+    doi: https://doi.org/10.1109/TCSI.2025.3602151
+    usemathjax: true
+    permalink: /research/quad-sbox-implem/
+    id: "quad-sbox-implem"
+    
+-   title:  "Monitoring the Execution of Cryptographic Functions"
+    summary: "Analysing the [in]security of cryptographic function execution with processor debugging tools."
+    author: Sébastien Duval
+    co-authors: Matthieu Amet, Oussama Ben Moussa, Guillaume Bonfantel, Sébastien Duval
+    date: '2025-05-01'
+    category: Book chapter
+    venue: Foundations and Practice of Security
+    keywords: Cybersecurity, Program Security, Pin Tool, OpenSSL
+    doi: https://doi.org/10.1007/978-3-031-87499-4_25
+    dblp-link: https://dblp.org/rec/conf/fps/AmetMBD24.html
+    usemathjax: true
+    permalink: /research/malcrypt1/
+    id: "malcrypt1"
+    
+-   title:  "CyberHumanumEst, une guerre cyber autour des Riverchelles"
+    summary: "Pédagogie de la cybersécurité par l'exercice grandeur nature à Nancy."
+    author: Sébastien Duval
+    co-authors: Guillaume Bonfante, Jean-Philippe Auzelle, Rémi Badonnel, Sébastien Duval, Stépghane Gégout, Marion Gilson, Clément Joliot, Eric Koessler, Audrey Knauf, Nicolas Krommenacker, Sébastien Schmitt, Pierre Veutin
+    date: '2024-05-01'
+    category: Conference paper
+    venue: Rendez-Vous de la Recherche et de l'Enseignement de la Sécurité des Systèmes d'Information
+    keywords: Pedagogy, Cybersecurity
+    usemathjax: true
+    permalink: /research/cyberhumanumest-research/
+    id: "cyberhumanumestresearch"
+    
+-   title:  "Scatter: a Missing Case?"
+    summary: "On usecases of the side-channel evaluation tool Scatter."
+    author: Sébastien Duval
+    co-authors: Yuanyuan Zhou, Sébastien Duval, François-Xavier Standaert
+    date: '2021-10-18'
+    category: Journal articles
+    venue: Constructive Side-Channel Analysis and Secure Design
+    keywords: Side-Channel Attacks, Security Evaluation Tool
+    doi: https://doi.org/10.1007/978-3-030-68773-1_5
+    rg-link: https://www.researchgate.net/publication/349062372_Scatter_a_Missing_Case
+    dblp-link: https://dblp.org/rec/conf/cosade/0006DS20.html
+    usemathjax: true
+    permalink: /research/scatter-missing/
+    id: "scattermissing"
+    
 -   title:  "Exploring Crypto-Physical Dark Matter and Learning with Physical Rounding"
     subtitle: "Towards Secure and Efficient Fresh Re-Keying"
     summary: "State-of-the-art re-keying schemes can be viewed as a tradeoff between efficient but heuristic solutions based on binary field multiplications, that are only secure if implemented with a sufficient amount of noise, and formal but more expensive solutions based on weak pseudorandom functions, that remain secure if the adversary accesses their output in full. Recent results on “crypto dark matter” (TCC 2018) suggest that low-complexity pseudorandom functions can be obtained by mixing linear functions over different small moduli. In this paper, we conjecture that by mixing some matrix multiplications in a prime field with a physical mapping similar to the leakage functions exploited in side-channel analysis, we can build efficient re-keying schemes based on “crypto-physical dark matter”, that remain secure against an adversary who can access noise-free measurements. We provide first analyzes of the security and implementation properties that such schemes provide. Precisely, we first show that they are more secure than the initial (heuristic) proposal by Medwed et al. (AFRICACRYPT 2010). For example, they can resist attacks put forward by Belaid et al. (ASIACRYPT 2014), satisfy some relevant cryptographic properties and can be connected to a “Learning with Physical Rounding” problem that shares some similarities with standard learning problems. We next show that they are significantly more efficient than the weak pseudorandom function proposed by Dziembowski et al. (CRYPTO 2016), by exhibiting hardware implementation results."
