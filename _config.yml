@@ -202,6 +202,7 @@ author_project_details:
                 project_description: Resistence of cryptographic systems
                 project_description_fr: La résistance des systèmes cryptographiques
                 project_url: https://www.pepr-cybersecurite.fr/projet/cryptanalyse/
+                visibility: true
               - project_thumbnail: anr-logo.png
                 project_title: ANR OREO
                 project_description: MILP modeling for symmetric cryptography - OREO
@@ -212,7 +213,7 @@ author_project_details:
                 project_title: Cyber Humanum Est
                 project_description: A 3-day + 1 night simulation of a cybersecurity wargame for about 100 students, including attack, defense and influence, on all types of infrastructures from network and systems, electronics and physics
                 project_description_fr: Une simulation de cyber-guerre de 3 jours et une nuit pour environs 100 étudiants, incluant attaque, défense et lutte d'influence, à la fois sur des infrastructures informatiques, électroniques et physiques
-                project_url: https://fr.cyberhumanumest.com/
+                project_url: https://cyberhumanumest.com/
                 visibility: true
               - project_thumbnail: spook.png
                 project_title: Spook
