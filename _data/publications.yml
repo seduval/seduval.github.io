@@ -7,7 +7,6 @@
     venue:  IEEE Transactions on Circuits and Systems
     keywords: Cryptography, Synthesiser, Tool, Implementation, Quadratic Functions, S-box
     doi: https://doi.org/10.1109/TCSI.2025.3602151
-    dblp-link: https://dblp.org/rec/conf/fps/AmetMBD24.html
     rg-link: https://www.researchgate.net/publication/395292087_A_New_Tool_to_Find_Lightweight_And_Xor_Implementations_of_Quadratic_Vectorial_Boolean_Functions_up_to_Dimension_9
     usemathjax: true
     permalink: /research/quad-sbox-implem/
