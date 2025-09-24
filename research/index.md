@@ -49,7 +49,9 @@ summary: I, Sébastien Duval, am a researcher in the field of cryptography (memb
                                 <button lang='en' class="btn btn-dark btn-lg" onclick="changeAbstract('{{-publi.summary-}}')" href="#abstractCard">Abstract</button>
                                 <a lang='en' href="{{- publi.doi -}}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{- publi.url -}}" class="btn btn-dark btn-lg">Access</a>
                                 <a lang='fr' href="{{- publi.doi -}}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{- publi.url -}}" class="btn btn-dark btn-lg">Accès</a>
+                                {%- if publi.rg-link -%}
                                 <a href="{{- publi.rg-link -}}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{- publi.url -}}" class="btn btn-dark btn-lg">@RG</a>
+                                {%- endif -%}
                                 {%- if publi.dblp-link -%}
                                 <a href="{{- publi.dblp-link -}}" rel="noopener noreferrer" target=_blank data-disqus-identifier="{{- publi.url -}}" class="btn btn-dark btn-lg">@dblp</a>
                                 {%- endif -%}
