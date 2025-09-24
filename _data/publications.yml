@@ -7,6 +7,8 @@
     venue:  IEEE Transactions on Circuits and Systems
     keywords: Cryptography, Synthesiser, Tool, Implementation, Quadratic Functions, S-box
     doi: https://doi.org/10.1109/TCSI.2025.3602151
+    dblp-link: https://dblp.org/rec/conf/fps/AmetMBD24.html
+    rg-link: https://www.researchgate.net/publication/395292087_A_New_Tool_to_Find_Lightweight_And_Xor_Implementations_of_Quadratic_Vectorial_Boolean_Functions_up_to_Dimension_9
     usemathjax: true
     permalink: /research/quad-sbox-implem/
     id: "quad-sbox-implem"
@@ -21,6 +23,7 @@
     keywords: Cybersecurity, Program Security, Pin Tool, OpenSSL
     doi: https://doi.org/10.1007/978-3-031-87499-4_25
     dblp-link: https://dblp.org/rec/conf/fps/AmetMBD24.html
+    rg-link: https://www.researchgate.net/publication/391419514_Monitoring_the_Execution_of_Cryptographic_Functions
     usemathjax: true
     permalink: /research/malcrypt1/
     id: "malcrypt1"
