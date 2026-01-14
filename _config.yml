@@ -50,8 +50,8 @@ urls:
 
 author_logo: avatar.jpeg
 author: Sébastien Duval
-author_bio: "<p lang='en'>I am an Associate Professor in France at University of Lorraine
-      <a href='https://www.univ-lorraine.fr/en/home/' target='_blank'>University of Lorraine</a>
+author_bio: "<p lang='en'>I am an Associate Professor in France at
+      <a href='https://www.univ-lorraine.fr/en/home/' target='_blank'>University of Lorraine</a>, in Nancy,
       in the team
       <a href='https://www.inria.fr/en/caramba' target='_blank'>CARAMBA</a>.
       I previously worked at 
@@ -89,7 +89,7 @@ author_bio: "<p lang='en'>I am an Associate Professor in France at University of
       I taught for three years at Sorbonne University, in campus Pierre-et-Marie-Curie, for bachelor students in computer science, then I taught master students in electricity at UCLouvain for two years, and then bachelor students in computer science at University of Versailles.
       </p>"
 author_bio_fr: "<p lang='fr'>Je suis Maître de Conférences à
-      <a href='https://www.univ-lorraine.fr/' target='_blank'>l'Université de Lorraine</a>
+      <a href='https://www.univ-lorraine.fr/' target='_blank'>l'Université de Lorraine</a>, à Nancy,
       dans l'équipe
       <a href='https://www.inria.fr/fr/caramba' target='_blank'>CARAMBA</a>.
       J'ai travaillé précédemment à 

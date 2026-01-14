@@ -26,9 +26,17 @@
   university: Université de Lorraine
   level: 3rd year Bachelors
   level_fr: L3
-  description: "Introduction to Security and Cryptography"
-  description_fr: "Introduction à la Sécurité et à la Cryptographie"
+  description: "Introduction to Security"
+  description_fr: "Introduction à la Sécurité"
   url: https://arche.univ-lorraine.fr/course/view.php?id=9091
+
+- year: 2024-
+  university: Université de Lorraine
+  level: 3rd year Bachelors
+  level_fr: L3
+  description: "Introduction to Cryptography"
+  description_fr: "Introduction à la Cryptographie"
+  url: https://arche.univ-lorraine.fr/course/view.php?id=77278
 
 - year: 2025-
   university: Université de Lorraine
