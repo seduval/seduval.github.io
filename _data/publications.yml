@@ -1,3 +1,17 @@
+-   title:  "A Tool for Lightweight (AND, XOR) Implementations of Large-Degree S-boxes"
+    summary: "Efficient tool to implement cryptographic functions on up to 7-8 bits and up to degree 5. Outputs bit-sliced circuit descriptions. Tool is provided."
+    author: Sébastien Duval
+    co-authors: Marie Bolzer, Sébastien Duval, Marine Minier
+    date: '2026-04-23'
+    category: Journal article
+    venue:  IACR Transactions on Cryptographic Hardware and Embedded Systems 2026 issue 2
+    keywords: Cryptography, Synthesiser, Tool, Implementation, S-box
+    doi: https://doi.org/10.46586/tches.v2026.i2.605-629
+    rg-link: https://www.researchgate.net/publication/404132729_A_Tool_for_Lightweight_AND_XOR_Implementations_of_Large-Degree_S-boxes
+    usemathjax: true
+    permalink: /research/sbox-implem/
+    id: "sbox-implem"
+
 -   title:  "A New Tool to Find Lightweight (And, Xor) Implementations of Quadratic Vectorial Boolean Functions up to Dimension 9"
     summary: "Efficient tool to implement quadratic cryptographic functions on up to 9-10 bits. Outputs bit-sliced circuit descriptions. Tool is provided."
     author: Sébastien Duval
